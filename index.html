@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perpDEX Funding Rate Comparison | Hyperliquid, Grvt, edgeX, Lighter, Paradex</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Real-time funding rate comparison across major perpDEXs including Hyperliquid, Grvt, edgeX, Lighter, and Paradex. Find arbitrage opportunities and optimize your airdrop farming strategy.">
+    <meta name="keywords" content="funding rate, perpDEX, Hyperliquid, Grvt, edgeX, Lighter, Paradex, DeFi, perpetual futures, arbitrage, airdrop farming, crypto derivatives">
+    <link rel="canonical" href="https://hideyuki.github.io/funding-comparison/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hideyuki.github.io/funding-comparison/">
+    <meta property="og:title" content="perpDEX Funding Rate Comparison | Real-time Tracker">
+    <meta property="og:description" content="Compare funding rates across 5 major perpDEXs in real-time. Find arbitrage opportunities for airdrop farming.">
+    <meta property="og:site_name" content="perpDEX Funding Rate Comparison">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hideyuki.github.io/funding-comparison/">
+    <meta property="twitter:title" content="perpDEX Funding Rate Comparison | Real-time Tracker">
+    <meta property="twitter:description" content="Compare funding rates across 5 major perpDEXs in real-time. Find arbitrage opportunities for airdrop farming.">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "perpDEX Funding Rate Comparison",
+      "description": "Real-time funding rate comparison tool for decentralized perpetual exchanges including Hyperliquid, Grvt, edgeX, Lighter, and Paradex",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Real-time funding rate data",
+        "5 major perpDEX comparison",
+        "Arbitrage opportunity detection",
+        "Automatic hourly updates",
+        "Search and sort functionality"
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>perpDEX Funding Rate Comparison</h1>
+            <p class="intro-text">Compare real-time funding rates across 5 major perpDEXs. Find arbitrage opportunities and optimize your airdrop farming strategy.</p>
+            <div class="header-info">
+                <div class="update-time">
+                    <span>Last Update: </span>
+                    <span id="last-update">-</span>
+                </div>
+                <button id="refresh-btn" class="refresh-btn">🔄 Refresh</button>
+            </div>
+        </header>
+
+        <section class="controls">
+            <div class="filters">
+                <input type="text" id="search" placeholder="Search symbol (e.g. BTC, ETH)" class="search-input">
+                <label class="favorites-filter">
+                    <input type="checkbox" id="favorites-only">
+                    <span>⭐ Favorites Only</span>
+                </label>
+            </div>
+
+            <div class="exchange-controls">
+                <div class="main-exchange-selector">
+                    <label for="main-exchange">Main Exchange:</label>
+                    <select id="main-exchange" class="main-exchange-select">
+                        <option value="hyperliquid" selected>Hyperliquid</option>
+                        <option value="grvt">Grvt</option>
+                        <option value="edgex">edgeX</option>
+                        <option value="lighter">Lighter</option>
+                        <option value="paradex">Paradex</option>
+                    </select>
+                </div>
+
+                <div class="exchange-toggles">
+                    <label class="toggle-label">Compare:</label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="exchange-checkbox" data-exchange="hyperliquid" checked>
+                        <span>Hyperliquid</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="exchange-checkbox" data-exchange="grvt" checked>
+                        <span>Grvt</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="exchange-checkbox" data-exchange="edgex" checked>
+                        <span>edgeX</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="exchange-checkbox" data-exchange="lighter" checked>
+                        <span>Lighter</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="exchange-checkbox" data-exchange="paradex" checked>
+                        <span>Paradex</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading data...</p>
+        </div>
+
+        <div class="error" id="error" style="display: none;">
+            <p>⚠️ Failed to fetch data</p>
+            <button onclick="loadData()">Retry</button>
+        </div>
+
+        <section class="table-wrapper">
+            <table class="fr-table">
+                <thead>
+                    <tr id="table-header">
+                        <!-- ヘッダーは JavaScript で動的に生成 -->
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- データは JavaScript で挿入 -->
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>Update Interval: 1 hour | Data Source: Public APIs of each exchange</p>
+            <p class="disclaimer">※ Funding rates are estimates and may differ from actual values</p>
+            <p class="disclaimer">※ Paradex uses continuous funding; displayed rates are instantaneous snapshots (reference only)</p>
+            <button id="reset-settings-btn" class="reset-settings-btn">Reset Settings</button>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+name: Update Funding Rates
+
+on:
+  # 1時間ごとに実行（毎時00分 UTC）
+  schedule:
+    - cron: '0 * * * *'
+
+  # 手動実行も可能
+  workflow_dispatch:
+
+  # プッシュ時にも実行（テスト用）
+  push:
+    branches:
+      - main
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Fetch funding rates
+        run: ruby fetch_funding_rates.rb
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/funding-rates.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/funding-rates.json
+          git commit -m "Update funding rates data - $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
