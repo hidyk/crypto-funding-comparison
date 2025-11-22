@@ -164,7 +164,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // イベントリスナー設定
 function setupEventListeners() {
-    document.getElementById('refresh-btn').addEventListener('click', loadData);
     document.getElementById('search').addEventListener('input', filterAndRender);
     document.getElementById('main-exchange').addEventListener('change', (e) => {
         mainExchange = e.target.value;
