@@ -10,7 +10,7 @@ const EXCHANGE_NAMES = {
 // リファラルリンク（後で実際のリンクに置き換えてください）
 const REFERRAL_LINKS = {
     hyperliquid: 'https://hyperliquid.xyz', // TODO: リファラルコードを追加
-    grvt: 'https://grvt.io', // TODO: リファラルコードを追加
+    grvt: 'https://grvt.io/exchange/sign-up?ref=WLAH21S',
     edgex: 'https://pro.edgex.exchange', // TODO: リファラルコードを追加
     lighter: 'https://lighter.xyz', // TODO: リファラルコードを追加
     paradex: 'https://paradex.trade' // TODO: リファラルコードを追加
