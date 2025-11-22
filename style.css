@@ -322,6 +322,32 @@ h1 {
     color: #667eea;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.exchange-name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.ref-icon {
+    font-size: 0.7rem;
+    opacity: 0.5;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.2s;
+    cursor: pointer;
+}
+
+.ref-icon:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
 .sort-arrow-inactive {
     opacity: 0.3;
     color: #a0a0a0;

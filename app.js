@@ -7,6 +7,15 @@ const EXCHANGE_NAMES = {
     paradex: 'Paradex ※'
 };
 
+// リファラルリンク（後で実際のリンクに置き換えてください）
+const REFERRAL_LINKS = {
+    hyperliquid: 'https://hyperliquid.xyz', // TODO: リファラルコードを追加
+    grvt: 'https://grvt.io', // TODO: リファラルコードを追加
+    edgex: 'https://pro.edgex.exchange', // TODO: リファラルコードを追加
+    lighter: 'https://lighter.xyz', // TODO: リファラルコードを追加
+    paradex: 'https://paradex.trade' // TODO: リファラルコードを追加
+};
+
 const ALL_EXCHANGES = ['hyperliquid', 'grvt', 'edgex', 'lighter', 'paradex'];
 
 // グローバル変数
@@ -379,14 +388,14 @@ function renderTableHeader() {
 
     // メイン取引所を最初に表示
     if (visibleExchanges.has(mainExchange)) {
-        headerHTML += createSortableHeader('mainFR', `${EXCHANGE_NAMES[mainExchange]} (Main)`, 'main-exchange-col');
+        headerHTML += createSortableHeader('mainFR', `${EXCHANGE_NAMES[mainExchange]} (Main)`, 'main-exchange-col', REFERRAL_LINKS[mainExchange]);
         headerHTML += createSortableHeader('volume', '24h Volume', 'volume-col');
     }
 
     // その他の取引所を表示
     visibleExList.forEach(ex => {
         if (ex !== mainExchange) {
-            headerHTML += createSortableHeader(`${ex}_fr`, EXCHANGE_NAMES[ex]);
+            headerHTML += createSortableHeader(`${ex}_fr`, EXCHANGE_NAMES[ex], '', REFERRAL_LINKS[ex]);
             headerHTML += createSortableHeader(`${ex}_diff`, `vs ${EXCHANGE_NAMES[mainExchange]}`, 'diff-col');
         }
     });
@@ -406,14 +415,22 @@ function renderTableHeader() {
 }
 
 // ソート可能なヘッダーを作成
-function createSortableHeader(column, label, className = '') {
+function createSortableHeader(column, label, className = '', referralLink = null) {
     const isActive = currentSort.column === column;
     const direction = isActive ? currentSort.direction : 'desc';
     const arrow = direction === 'asc' ? ' ↑' : ' ↓';
     const arrowClass = isActive ? '' : 'sort-arrow-inactive';
 
+    // リファラルリンクのアイコンを追加
+    const refIcon = referralLink
+        ? `<a href="${referralLink}" class="ref-icon" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" title="Sign up on ${label}">🔗</a>`
+        : '';
+
     return `<th class="sortable ${className} ${isActive ? 'sort-active' : ''}" data-column="${column}">
-        ${label}<span class="${arrowClass}">${arrow}</span>
+        <div class="header-content">
+            <span class="exchange-name">${label}${refIcon}</span>
+            <span class="${arrowClass}">${arrow}</span>
+        </div>
     </th>`;
 }
 
