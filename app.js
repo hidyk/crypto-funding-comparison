@@ -7,7 +7,16 @@ const EXCHANGE_NAMES = {
     paradex: 'Paradex ※'
 };
 
-// リファラルリンク（後で実際のリンクに置き換えてください）
+// 取引所のトレード画面リンク
+const TRADE_LINKS = {
+    hyperliquid: 'https://app.hyperliquid.xyz/trade',
+    grvt: 'https://grvt.io/exchange',
+    edgex: 'https://pro.edgex.exchange',
+    lighter: 'https://app.lighter.xyz/trade',
+    paradex: 'https://app.paradex.trade/trading'
+};
+
+// サインアップリンク
 const REFERRAL_LINKS = {
     hyperliquid: 'https://hyperliquid.xyz', // TODO: リファラルコードを追加
     grvt: 'https://grvt.io/exchange/sign-up?ref=WLAH21S',
@@ -388,14 +397,14 @@ function renderTableHeader() {
 
     // メイン取引所を最初に表示
     if (visibleExchanges.has(mainExchange)) {
-        headerHTML += createSortableHeader('mainFR', `${EXCHANGE_NAMES[mainExchange]} (Main)`, 'main-exchange-col', REFERRAL_LINKS[mainExchange]);
+        headerHTML += createSortableHeader('mainFR', `${EXCHANGE_NAMES[mainExchange]} (Main)`, 'main-exchange-col', mainExchange);
         headerHTML += createSortableHeader('volume', '24h Volume', 'volume-col');
     }
 
     // その他の取引所を表示
     visibleExList.forEach(ex => {
         if (ex !== mainExchange) {
-            headerHTML += createSortableHeader(`${ex}_fr`, EXCHANGE_NAMES[ex], '', REFERRAL_LINKS[ex]);
+            headerHTML += createSortableHeader(`${ex}_fr`, EXCHANGE_NAMES[ex], '', ex);
             headerHTML += createSortableHeader(`${ex}_diff`, `vs ${EXCHANGE_NAMES[mainExchange]}`, 'diff-col');
         }
     });
@@ -415,15 +424,15 @@ function renderTableHeader() {
 }
 
 // ソート可能なヘッダーを作成
-function createSortableHeader(column, label, className = '', referralLink = null) {
+function createSortableHeader(column, label, className = '', exchange = null) {
     const isActive = currentSort.column === column;
     const direction = isActive ? currentSort.direction : 'desc';
     const arrow = direction === 'asc' ? ' ↑' : ' ↓';
     const arrowClass = isActive ? '' : 'sort-arrow-inactive';
 
-    // リファラルリンクのアイコンを追加
-    const refIcon = referralLink
-        ? `<a href="${referralLink}" class="ref-icon" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" title="Sign up on ${label}">🔗</a>`
+    // 取引所リンクアイコンを追加
+    const refIcon = exchange
+        ? `<span class="ref-icon" onclick="event.stopPropagation(); showExchangeModal('${exchange}')" title="Visit ${EXCHANGE_NAMES[exchange]}">🔗</span>`
         : '';
 
     return `<th class="sortable ${className} ${isActive ? 'sort-active' : ''}" data-column="${column}">
@@ -588,3 +597,37 @@ function showError() {
 function hideError() {
     document.getElementById('error').style.display = 'none';
 }
+
+// 取引所モーダル表示
+function showExchangeModal(exchange) {
+    const modal = document.getElementById('exchange-modal');
+    const exchangeName = EXCHANGE_NAMES[exchange];
+    const tradeLink = TRADE_LINKS[exchange];
+    const signupLink = REFERRAL_LINKS[exchange];
+
+    // モーダルの内容を更新
+    document.getElementById('modal-exchange-name').textContent = exchangeName;
+    document.getElementById('modal-trade-btn').onclick = () => {
+        window.open(tradeLink, '_blank', 'noopener,noreferrer');
+        closeExchangeModal();
+    };
+    document.getElementById('modal-signup-btn').onclick = () => {
+        window.open(signupLink, '_blank', 'noopener,noreferrer');
+        closeExchangeModal();
+    };
+
+    modal.style.display = 'flex';
+}
+
+// 取引所モーダルを閉じる
+function closeExchangeModal() {
+    document.getElementById('exchange-modal').style.display = 'none';
+}
+
+// モーダル外側クリックで閉じる
+window.addEventListener('click', (e) => {
+    const modal = document.getElementById('exchange-modal');
+    if (e.target === modal) {
+        closeExchangeModal();
+    }
+});
