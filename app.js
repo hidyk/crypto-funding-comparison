@@ -25,6 +25,24 @@ const REFERRAL_LINKS = {
     paradex: 'https://app.paradex.trade/r/getxpbonus'
 };
 
+// サインアップボタンのテキスト（プロモーション情報）
+const SIGNUP_BUTTON_TEXT = {
+    hyperliquid: '✨ Sign Up',
+    grvt: '🎁 Sign Up ($GRVT Airdrop S2)',
+    edgex: '✨ Sign Up',
+    lighter: '✨ Sign Up',
+    paradex: '🎁 Sign Up (Get 2.5% XP)'
+};
+
+// プロモーション終了日（UTC）- nullの場合は終了日なし
+const PROMOTION_END_DATES = {
+    hyperliquid: null,
+    grvt: null, // Season 2.0 - 終了日未定
+    edgex: null,
+    lighter: null,
+    paradex: null
+};
+
 const ALL_EXCHANGES = ['hyperliquid', 'grvt', 'edgex', 'lighter', 'paradex'];
 
 // グローバル変数
@@ -605,8 +623,19 @@ function showExchangeModal(exchange) {
     const tradeLink = TRADE_LINKS[exchange];
     const signupLink = REFERRAL_LINKS[exchange];
 
+    // プロモーション終了チェック
+    const endDate = PROMOTION_END_DATES[exchange];
+    const isPromotionActive = !endDate || new Date() < new Date(endDate);
+
+    // ボタンテキストを決定（プロモーション期限切れの場合は通常テキスト）
+    const signupButtonText = isPromotionActive
+        ? SIGNUP_BUTTON_TEXT[exchange]
+        : '✨ Sign Up';
+
     // モーダルの内容を更新
     document.getElementById('modal-exchange-name').textContent = exchangeName;
+    document.getElementById('modal-signup-btn').textContent = signupButtonText;
+
     document.getElementById('modal-trade-btn').onclick = () => {
         window.open(tradeLink, '_blank', 'noopener,noreferrer');
         closeExchangeModal();
