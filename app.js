@@ -22,7 +22,7 @@ const REFERRAL_LINKS = {
     grvt: 'https://grvt.io/exchange/sign-up?ref=WLAH21S',
     edgex: 'https://pro.edgex.exchange', // TODO: リファラルコードを追加
     lighter: 'https://lighter.xyz', // TODO: リファラルコードを追加
-    paradex: 'https://paradex.trade' // TODO: リファラルコードを追加
+    paradex: 'https://app.paradex.trade/r/getxpbonus'
 };
 
 const ALL_EXCHANGES = ['hyperliquid', 'grvt', 'edgex', 'lighter', 'paradex'];
