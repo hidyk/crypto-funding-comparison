@@ -45,7 +45,23 @@ const PROMOTION_END_DATES = {
 
 const ALL_EXCHANGES = ['hyperliquid', 'grvt', 'edgex', 'lighter', 'paradex'];
 
+// ==========================================
+// GTM Analytics
+// ==========================================
+
+// GTM dataLayer イベント送信用ヘルパー関数
+function sendGTMEvent(eventName, eventData = {}) {
+    if (window.dataLayer) {
+        window.dataLayer.push({
+            event: eventName,
+            ...eventData
+        });
+    }
+}
+
+// ==========================================
 // グローバル変数
+// ==========================================
 let fundingData = [];
 let filteredData = [];
 let mainExchange = 'hyperliquid';
@@ -164,9 +180,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // イベントリスナー設定
 function setupEventListeners() {
-    document.getElementById('search').addEventListener('input', filterAndRender);
+    // 検索機能
+    let searchTimeout;
+    document.getElementById('search').addEventListener('input', (e) => {
+        const searchTerm = e.target.value;
+
+        // 2文字以上入力されたらGTMイベント送信（デバウンス処理）
+        if (searchTerm.length >= 2) {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                sendGTMEvent('search_used', {
+                    search_term: searchTerm.toLowerCase()
+                });
+            }, 1000);
+        }
+
+        filterAndRender();
+    });
+
+    // メイン取引所の変更
     document.getElementById('main-exchange').addEventListener('change', (e) => {
+        const oldExchange = mainExchange;
         mainExchange = e.target.value;
+
+        // GTMイベント送信
+        sendGTMEvent('exchange_changed', {
+            old_exchange: oldExchange,
+            new_exchange: mainExchange
+        });
+
         updateExchangeCheckboxes(); // チェックボックスを更新
 
         // 差額を再計算
@@ -209,11 +251,21 @@ function setupEventListeners() {
 
 // お気に入りのトグル
 function toggleFavorite(symbol) {
+    const action = favorites.has(symbol) ? 'remove' : 'add';
+
     if (favorites.has(symbol)) {
         favorites.delete(symbol);
     } else {
         favorites.add(symbol);
     }
+
+    // GTMイベント送信
+    sendGTMEvent('favorite_toggled', {
+        symbol: symbol,
+        action: action,
+        total_favorites: favorites.size
+    });
+
     saveSettings(); // 設定を保存
     filterAndRender();
 }
@@ -398,6 +450,12 @@ function toggleSort(column) {
         currentSort.column = column;
         currentSort.direction = 'desc';
     }
+
+    // GTMイベント送信
+    sendGTMEvent('sort_changed', {
+        column: column,
+        direction: currentSort.direction
+    });
 
     filterAndRender();
 }
@@ -636,10 +694,25 @@ function showExchangeModal(exchange) {
     document.getElementById('modal-signup-btn').textContent = signupButtonText;
 
     document.getElementById('modal-trade-btn').onclick = () => {
+        // GTMイベント送信
+        sendGTMEvent('referral_link_click', {
+            exchange: exchange,
+            link_type: 'trade',
+            destination_url: tradeLink
+        });
+
         window.open(tradeLink, '_blank', 'noopener,noreferrer');
         closeExchangeModal();
     };
     document.getElementById('modal-signup-btn').onclick = () => {
+        // GTMイベント送信
+        sendGTMEvent('referral_link_click', {
+            exchange: exchange,
+            link_type: 'signup',
+            destination_url: signupLink,
+            has_promotion: signupButtonText !== '✨ Sign Up'
+        });
+
         window.open(signupLink, '_blank', 'noopener,noreferrer');
         closeExchangeModal();
     };
