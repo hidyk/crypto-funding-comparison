@@ -20,7 +20,7 @@ const TRADE_LINKS = {
 const REFERRAL_LINKS = {
     hyperliquid: 'https://hyperliquid.xyz', // TODO: リファラルコードを追加
     grvt: 'https://grvt.io/exchange/sign-up?ref=WLAH21S',
-    edgex: 'https://pro.edgex.exchange', // TODO: リファラルコードを追加
+    edgex: 'https://pro.edgex.exchange/referral/369528196',
     lighter: 'https://lighter.xyz', // TODO: リファラルコードを追加
     paradex: 'https://app.paradex.trade/r/getxpbonus'
 };
@@ -29,7 +29,7 @@ const REFERRAL_LINKS = {
 const SIGNUP_BUTTON_TEXT = {
     hyperliquid: '✨ Sign Up',
     grvt: '🎁 Sign Up ($GRVT Airdrop S2)',
-    edgex: '✨ Sign Up',
+    edgex: '🎁 Sign Up (10% Fee Rebate + VIP1)',
     lighter: '✨ Sign Up',
     paradex: '🎁 Sign Up (Get 2.5% XP)'
 };
