@@ -4,22 +4,22 @@
       "symbol": "BTC",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 85810.0,
-        "volume24h": 1888089289.148927
+        "markPrice": 86256.0,
+        "volume24h": 2012974356.0706382
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 85801.137546869,
-        "volume24h": 178575293.8728
+        "markPrice": 86233.062336055,
+        "volume24h": 175780969.4042
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 3.2e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 14983.16396162,
+        "markPrice": 14622.0870949,
         "volume24h": 0.0
       }
     },
@@ -27,13 +27,13 @@
       "symbol": "ETH",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 2712.21,
-        "volume24h": 799876976.2401302
+        "markPrice": 2725.5,
+        "volume24h": 868256182.4363003
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 2711.691941638,
-        "volume24h": 95835245.42807999
+        "markPrice": 2724.804364782,
+        "volume24h": 93924010.94453001
       },
       "edgex": {
         "fundingRate": 1.25e-05,
@@ -41,13 +41,13 @@
         "volume24h": 0.0
       },
       "lighter": {
-        "fundingRate": 4.7999999999999994e-05,
+        "fundingRate": 8.0e-06,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 2.35932972,
+        "markPrice": 1.52306894,
         "volume24h": 0.0
       }
     },
@@ -55,13 +55,13 @@
       "symbol": "ATOM",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.7533,
-        "volume24h": 747984.021434
+        "markPrice": 1.7641,
+        "volume24h": 673054.7151620003
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 1.753048731,
-        "volume24h": 2407573.95801
+        "markPrice": 1.764000001,
+        "volume24h": 2191197.75213
       }
     },
     {
@@ -76,8 +76,8 @@
       "symbol": "DYDX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.14549,
-        "volume24h": 131792.879155
+        "markPrice": 0.14745,
+        "volume24h": 131236.463432
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -89,13 +89,13 @@
       "symbol": "SOL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 120.805,
-        "volume24h": 133189853.19319995
+        "markPrice": 121.63,
+        "volume24h": 136225230.0747999
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 120.756735842,
-        "volume24h": 31758853.551200002
+        "markPrice": 121.630000085,
+        "volume24h": 32777053.656
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -104,7 +104,7 @@
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 1.57772627,
+        "markPrice": 1.63896557,
         "volume24h": 0.0
       }
     },
@@ -112,36 +112,13 @@
       "symbol": "AVAX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 10.93,
-        "volume24h": 9679272.89936
+        "markPrice": 11.062,
+        "volume24h": 10350626.88891
       },
       "grvt": {
-        "fundingRate": 0.000625,
-        "markPrice": 10.927588698,
-        "volume24h": 812581.113
-      },
-      "lighter": {
-        "fundingRate": -4.0e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      },
-      "paradex": {
-        "fundingRate": -1.270991472e-05,
-        "markPrice": 10.93373999,
-        "volume24h": 1757.95515
-      }
-    },
-    {
-      "symbol": "BNB",
-      "hyperliquid": {
-        "fundingRate": 1.25e-05,
-        "markPrice": 791.6,
-        "volume24h": 13447035.919880003
-      },
-      "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 791.72075947,
-        "volume24h": 9096088.363200001
+        "fundingRate": 0.0010625,
+        "markPrice": 11.058000009,
+        "volume24h": 801832.642
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -149,30 +126,53 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.999998151e-05,
-        "markPrice": 792.42427916,
-        "volume24h": 4260347.274019999
+        "fundingRate": 4.506702546e-05,
+        "markPrice": 11.05546375,
+        "volume24h": 1757.95515
+      }
+    },
+    {
+      "symbol": "BNB",
+      "hyperliquid": {
+        "fundingRate": 1.25e-05,
+        "markPrice": 792.76,
+        "volume24h": 13520881.91522
+      },
+      "grvt": {
+        "fundingRate": 0.0,
+        "markPrice": 792.891827601,
+        "volume24h": 7650244.1686
+      },
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      },
+      "paradex": {
+        "fundingRate": 9.999998702e-05,
+        "markPrice": 792.95058077,
+        "volume24h": 4403092.074149999
       }
     },
     {
       "symbol": "APE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.16945,
-        "volume24h": 341843.0377660001
+        "markPrice": 0.16877,
+        "volume24h": 337453.5008940002
       }
     },
     {
       "symbol": "OP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.13233,
-        "volume24h": 684068.812149
+        "markPrice": 0.13517,
+        "volume24h": 695100.068722
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.132169803,
-        "volume24h": 7254395.643550999
+        "markPrice": 0.135088543,
+        "volume24h": 6864165.646873999
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -184,13 +184,13 @@
       "symbol": "LTC",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 70.103,
-        "volume24h": 8146428.356620003
+        "markPrice": 70.216,
+        "volume24h": 8276269.475560002
       },
       "grvt": {
-        "fundingRate": 0.001125,
-        "markPrice": 70.042370219,
-        "volume24h": 1647980.31563
+        "fundingRate": 0.001225,
+        "markPrice": 70.126379094,
+        "volume24h": 1666963.21535
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -198,8 +198,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.38065644e-05,
-        "markPrice": 70.07943834,
+        "fundingRate": 9.751501164e-05,
+        "markPrice": 70.11254159,
         "volume24h": 413.72141999999997
       }
     },
@@ -207,13 +207,13 @@
       "symbol": "ARB",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.20297,
-        "volume24h": 6613966.054317
+        "markPrice": 0.20706,
+        "volume24h": 6911662.033198
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.202991517,
-        "volume24h": 3801670.982724
+        "markPrice": 0.20704,
+        "volume24h": 3968675.607282
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -225,13 +225,13 @@
       "symbol": "DOGE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.095565,
-        "volume24h": 24422294.335281003
+        "markPrice": 0.096561,
+        "volume24h": 25196998.63444599
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.09551,
-        "volume24h": 4138346.5108
+        "markPrice": 0.09651,
+        "volume24h": 4044601.8238399997
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -239,8 +239,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.982141027e-05,
-        "markPrice": 0.09560797,
+        "fundingRate": 9.982697909e-05,
+        "markPrice": 0.09658756,
         "volume24h": 428.7598
       }
     },
@@ -248,21 +248,21 @@
       "symbol": "INJ",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 7.5655,
-        "volume24h": 2094811.2683299999
+        "markPrice": 7.648,
+        "volume24h": 2118959.4170599994
       }
     },
     {
       "symbol": "SUI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.2226,
-        "volume24h": 31694237.409389988
+        "markPrice": 1.2405,
+        "volume24h": 32293688.2308
       },
       "grvt": {
-        "fundingRate": 0.0007625,
-        "markPrice": 1.218442036,
-        "volume24h": 8993464.11536
+        "fundingRate": 0.0008,
+        "markPrice": 1.238079237,
+        "volume24h": 9157024.545060001
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -270,8 +270,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.95916282e-05,
-        "markPrice": 1.22260023,
+        "fundingRate": 9.977490909e-05,
+        "markPrice": 1.23989741,
         "volume24h": 541.1487
       }
     },
@@ -279,26 +279,26 @@
       "symbol": "kPEPE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.004423,
-        "volume24h": 9977827.637666002
+        "markPrice": 0.004474,
+        "volume24h": 10173789.286740001
       },
       "paradex": {
-        "fundingRate": 0.00010301374759,
-        "markPrice": 0.00442419,
-        "volume24h": 2171.352032
+        "fundingRate": 0.00010119663501,
+        "markPrice": 0.00448443,
+        "volume24h": 2801.8713519999997
       }
     },
     {
       "symbol": "CRV",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.37804,
-        "volume24h": 6467213.350121998
+        "markPrice": 0.38064,
+        "volume24h": 6416524.699665001
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.377663963,
-        "volume24h": 461375.53271
+        "markPrice": 0.380070777,
+        "volume24h": 439166.58103
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -310,13 +310,13 @@
       "symbol": "LDO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.46978,
-        "volume24h": 1530578.7322510001
+        "markPrice": 0.47612,
+        "volume24h": 1573298.8444880005
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.4691,
-        "volume24h": 4514501.160800001
+        "markPrice": 0.4757,
+        "volume24h": 4534139.3528
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -324,8 +324,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.9905115e-05,
-        "markPrice": 0.4696701,
+        "fundingRate": 9.989060029e-05,
+        "markPrice": 0.47590025,
         "volume24h": 1321.22
       }
     },
@@ -333,13 +333,13 @@
       "symbol": "LINK",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 14.124,
-        "volume24h": 8499941.258699998
+        "markPrice": 14.244,
+        "volume24h": 8611949.733999996
       },
       "grvt": {
-        "fundingRate": -5.0e-05,
-        "markPrice": 14.115000006,
-        "volume24h": 2828398.4085999997
+        "fundingRate": 0.0,
+        "markPrice": 14.232628232,
+        "volume24h": 2798706.76093
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -347,8 +347,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.25586218e-05,
-        "markPrice": 14.12687994,
+        "fundingRate": 8.328577168e-05,
+        "markPrice": 14.23833133,
         "volume24h": 639.60788
       }
     },
@@ -356,8 +356,8 @@
       "symbol": "STX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.39209,
-        "volume24h": 1004512.8540689998
+        "markPrice": 0.39318,
+        "volume24h": 981793.3598299997
       }
     },
     {
@@ -372,13 +372,13 @@
       "symbol": "CFX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.054449,
-        "volume24h": 106120.531697
+        "markPrice": 0.055067,
+        "volume24h": 107707.414954
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.05435848,
-        "volume24h": 1359315.13377
+        "markPrice": 0.054996768,
+        "volume24h": 1356105.93175
       }
     },
     {
@@ -393,8 +393,8 @@
       "symbol": "GMX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 8.4495,
-        "volume24h": 187779.060141
+        "markPrice": 8.512,
+        "volume24h": 181959.35084
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -406,21 +406,21 @@
       "symbol": "SNX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.25327,
-        "volume24h": 92455.146771
+        "markPrice": 0.25483,
+        "volume24h": 87148.538754
       }
     },
     {
       "symbol": "XRP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.5102,
-        "volume24h": 52516234.77840001
+        "markPrice": 1.5219,
+        "volume24h": 54326372.324899994
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 1.508388769,
-        "volume24h": 361989.51481
+        "markPrice": 1.520599981,
+        "volume24h": 547635.09933
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -428,8 +428,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.998329691e-05,
-        "markPrice": 1.51037424,
+        "fundingRate": 9.998014534e-05,
+        "markPrice": 1.52225152,
         "volume24h": 134262.50376999998
       }
     },
@@ -437,12 +437,12 @@
       "symbol": "BCH",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 318.82,
-        "volume24h": 1101294.1104399997
+        "markPrice": 319.41,
+        "volume24h": 1114092.6106899995
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 318.459984788,
+        "markPrice": 319.034446101,
         "volume24h": 141.57099
       },
       "lighter": {
@@ -455,8 +455,8 @@
       "symbol": "APT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.7957,
-        "volume24h": 1157033.6135509992
+        "markPrice": 0.8126,
+        "volume24h": 1111395.340519
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -468,13 +468,13 @@
       "symbol": "AAVE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 180.5,
-        "volume24h": 12170295.7213
+        "markPrice": 180.6,
+        "volume24h": 12114997.216500001
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 180.470000162,
-        "volume24h": 3834625.844
+        "markPrice": 180.600000144,
+        "volume24h": 3761002.452
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -482,8 +482,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 1.095852972e-05,
-        "markPrice": 180.12026128,
+        "fundingRate": 1.508513811e-05,
+        "markPrice": 180.44020838,
         "volume24h": 89.905
       }
     },
@@ -491,8 +491,8 @@
       "symbol": "COMP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 25.022,
-        "volume24h": 184436.6673400001
+        "markPrice": 25.139,
+        "volume24h": 191979.8684000001
       }
     },
     {
@@ -507,16 +507,16 @@
       "symbol": "WLD",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.5687,
-        "volume24h": 24555041.633545
+        "markPrice": 0.57814,
+        "volume24h": 25817608.470190015
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.5675,
-        "volume24h": 729069.1351000001
+        "markPrice": 0.57699359,
+        "volume24h": 708704.1334
       },
       "lighter": {
-        "fundingRate": 0.000336,
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -557,38 +557,38 @@
       "symbol": "YGG",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.027965,
-        "volume24h": 167633.579675
+        "markPrice": 0.028039,
+        "volume24h": 155671.6566169999
       }
     },
     {
       "symbol": "TRX",
       "hyperliquid": {
-        "fundingRate": -5.26543e-05,
-        "markPrice": 0.33467,
-        "volume24h": 1003854.0694900003
+        "fundingRate": -3.48191e-05,
+        "markPrice": 0.33523,
+        "volume24h": 1000068.0328899999
       },
       "lighter": {
-        "fundingRate": -0.00032,
+        "fundingRate": -9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": -0.00043077497524,
-        "markPrice": 0.33458963,
+        "fundingRate": -0.00025801456661,
+        "markPrice": 0.33496089,
         "volume24h": 149.369018
       }
     },
     {
       "symbol": "kSHIB",
       "hyperliquid": {
-        "fundingRate": 1.73423e-05,
-        "markPrice": 0.00592,
-        "volume24h": 1129288.9893589995
+        "fundingRate": 1.27553e-05,
+        "markPrice": 0.005974,
+        "volume24h": 1139835.3792859998
       },
       "paradex": {
-        "fundingRate": 9.999327403e-05,
-        "markPrice": 0.00591206,
+        "fundingRate": 9.999817339e-05,
+        "markPrice": 0.00596536,
         "volume24h": 0.0
       }
     },
@@ -596,13 +596,13 @@
       "symbol": "UNI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 9.0245,
-        "volume24h": 12572125.653599996
+        "markPrice": 9.06185,
+        "volume24h": 13148187.030410001
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 9.005000005,
-        "volume24h": 2542012.011
+        "markPrice": 9.053997716,
+        "volume24h": 2520021.44
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -610,8 +610,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.991129991e-05,
-        "markPrice": 9.01644345,
+        "fundingRate": 9.972546827e-05,
+        "markPrice": 9.07368923,
         "volume24h": 0.0
       }
     },
@@ -619,13 +619,13 @@
       "symbol": "SEI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.074397,
-        "volume24h": 790073.756092
+        "markPrice": 0.075404,
+        "volume24h": 798320.5578040002
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.074219973,
-        "volume24h": 384708.00658
+        "markPrice": 0.07537,
+        "volume24h": 380201.88651
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -637,8 +637,8 @@
       "symbol": "RUNE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.78716,
-        "volume24h": 982141.4231300004
+        "markPrice": 0.79145,
+        "volume24h": 963358.5059020002
       }
     },
     {
@@ -677,8 +677,8 @@
       "symbol": "ZRO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.9099,
-        "volume24h": 15039601.048729993
+        "markPrice": 1.91298,
+        "volume24h": 14919142.856859997
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -698,13 +698,13 @@
       "symbol": "DOT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.2191,
-        "volume24h": 1966830.73767
+        "markPrice": 1.2331,
+        "volume24h": 1977928.0277499994
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 1.217,
-        "volume24h": 403224.65148
+        "markPrice": 1.232275578,
+        "volume24h": 381061.21125000005
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -716,16 +716,16 @@
       "symbol": "BANANA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 3.9853,
-        "volume24h": 51005.77804
+        "markPrice": 4.0184,
+        "volume24h": 51918.2705
       }
     },
     {
       "symbol": "TRB",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 20.0845,
-        "volume24h": 96875.04316
+        "markPrice": 20.355,
+        "volume24h": 97990.30106
       }
     },
     {
@@ -796,16 +796,16 @@
       "symbol": "BIGTIME",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.009183,
-        "volume24h": 106648.184616
+        "markPrice": 0.009295,
+        "volume24h": 105357.871504
       }
     },
     {
       "symbol": "KAS",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.042849,
-        "volume24h": 195816.9253490001
+        "markPrice": 0.04368,
+        "volume24h": 176645.692996
       }
     },
     {
@@ -820,16 +820,16 @@
       "symbol": "BLUR",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.021377,
-        "volume24h": 131846.993737
+        "markPrice": 0.021452,
+        "volume24h": 117340.457368
       }
     },
     {
       "symbol": "TIA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.47547,
-        "volume24h": 687653.6812960003
+        "markPrice": 0.47957,
+        "volume24h": 553837.5283880002
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -840,22 +840,22 @@
     {
       "symbol": "BSV",
       "hyperliquid": {
-        "fundingRate": 2.06259e-05,
-        "markPrice": 20.127,
-        "volume24h": 129671.63873
+        "fundingRate": 4.24547e-05,
+        "markPrice": 20.269,
+        "volume24h": 126160.50211
       }
     },
     {
       "symbol": "ADA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.27009,
-        "volume24h": 17294426.418309998
+        "markPrice": 0.2724,
+        "volume24h": 17750959.78917001
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.269999999,
-        "volume24h": 4802526.7375
+        "markPrice": 0.272174991,
+        "volume24h": 4677670.8185
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -863,9 +863,9 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 0.00010000041817,
-        "markPrice": 0.27028948,
-        "volume24h": 73.86
+        "fundingRate": 0.00010004382777,
+        "markPrice": 0.27267584,
+        "volume24h": 49.400000000000006
       }
     },
     {
@@ -879,38 +879,38 @@
     {
       "symbol": "MINA",
       "hyperliquid": {
-        "fundingRate": -4.49927e-05,
-        "markPrice": 0.16449,
-        "volume24h": 582681.4938199997
+        "fundingRate": -9.36646e-05,
+        "markPrice": 0.16758,
+        "volume24h": 573421.7681999999
       }
     },
     {
       "symbol": "POLYX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.042258,
-        "volume24h": 67746.843529
+        "markPrice": 0.042628,
+        "volume24h": 68265.69306
       }
     },
     {
       "symbol": "GAS",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.4288,
-        "volume24h": 38068.05992
+        "markPrice": 1.43709,
+        "volume24h": 38467.1382
       }
     },
     {
       "symbol": "PENDLE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 2.4617,
-        "volume24h": 1446982.8232
+        "markPrice": 2.515169,
+        "volume24h": 1739884.3724
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 2.455633449,
-        "volume24h": 385292.49730000005
+        "markPrice": 2.517405868,
+        "volume24h": 393423.4375
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -918,8 +918,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 2.369050117e-05,
-        "markPrice": 2.44680745,
+        "fundingRate": 6.273263688e-05,
+        "markPrice": 2.52515351,
         "volume24h": 83.965
       }
     },
@@ -934,9 +934,9 @@
     {
       "symbol": "FET",
       "hyperliquid": {
-        "fundingRate": 3.17249e-05,
-        "markPrice": 0.25212,
-        "volume24h": 9106745.335219998
+        "fundingRate": 1.25e-05,
+        "markPrice": 0.26096,
+        "volume24h": 9225372.176299999
       }
     },
     {
@@ -950,23 +950,23 @@
     {
       "symbol": "NEAR",
       "hyperliquid": {
-        "fundingRate": 4.57531e-05,
-        "markPrice": 4.9782,
-        "volume24h": 167893364.33369988
+        "fundingRate": 4.63186e-05,
+        "markPrice": 5.1466,
+        "volume24h": 175395894.4278301
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 4.965743337,
-        "volume24h": 421328.93700000003
+        "markPrice": 5.139062851,
+        "volume24h": 431071.673
       },
       "lighter": {
-        "fundingRate": 0.00012,
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.971712639e-05,
-        "markPrice": 4.978175,
+        "fundingRate": 9.965303244e-05,
+        "markPrice": 5.14450217,
         "volume24h": 1672.8660600000003
       }
     },
@@ -974,16 +974,16 @@
       "symbol": "MEME",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.000618,
-        "volume24h": 75637.774753
+        "markPrice": 0.000625,
+        "volume24h": 74131.060003
       }
     },
     {
       "symbol": "ORDI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 4.5376,
-        "volume24h": 296576.5004750001
+        "markPrice": 4.5831,
+        "volume24h": 297764.9973090002
       }
     },
     {
@@ -998,34 +998,34 @@
       "symbol": "NEO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 2.5633,
-        "volume24h": 109790.200582
+        "markPrice": 2.5832,
+        "volume24h": 96111.490391
       }
     },
     {
       "symbol": "ZEN",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 7.0975,
-        "volume24h": 108076.034076
+        "markPrice": 7.1363,
+        "volume24h": 111059.287033
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 7.085624229,
-        "volume24h": 366775.13690000004
+        "markPrice": 7.135598527,
+        "volume24h": 347374.89969999995
       }
     },
     {
       "symbol": "FIL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.0562,
-        "volume24h": 328266.76553
+        "markPrice": 1.0678,
+        "volume24h": 373730.8785500001
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 1.054821428,
-        "volume24h": 416008.92628
+        "markPrice": 1.066564785,
+        "volume24h": 415374.54975
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1037,8 +1037,8 @@
       "symbol": "PYTH",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.07793,
-        "volume24h": 317976.1798459999
+        "markPrice": 0.079609,
+        "volume24h": 324952.2175219998
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1046,8 +1046,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 8.187730167e-05,
-        "markPrice": 0.07783361,
+        "fundingRate": 9.261178889e-05,
+        "markPrice": 0.07952405,
         "volume24h": 0.0
       }
     },
@@ -1055,8 +1055,8 @@
       "symbol": "SUSHI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.25337,
-        "volume24h": 130001.959388
+        "markPrice": 0.25751,
+        "volume24h": 135432.9965319999
       }
     },
     {
@@ -1071,32 +1071,32 @@
       "symbol": "IMX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.18457,
-        "volume24h": 339688.849325
+        "markPrice": 0.18607,
+        "volume24h": 325879.5026739999
       }
     },
     {
       "symbol": "kBONK",
       "hyperliquid": {
-        "fundingRate": 1.75274e-05,
-        "markPrice": 0.004004,
-        "volume24h": 1522856.4372940003
+        "fundingRate": 4.27948e-05,
+        "markPrice": 0.004059,
+        "volume24h": 1435200.9705849998
       }
     },
     {
       "symbol": "GMT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.009002,
-        "volume24h": 146101.368362
+        "markPrice": 0.009074,
+        "volume24h": 139288.041508
       }
     },
     {
       "symbol": "SUPER",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.24496,
-        "volume24h": 432720.0553999999
+        "markPrice": 0.24632,
+        "volume24h": 426077.34532
       }
     },
     {
@@ -1119,13 +1119,13 @@
       "symbol": "JUP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.33456,
-        "volume24h": 4491201.064480004
+        "markPrice": 0.34003,
+        "volume24h": 4311483.43252
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.333857525,
-        "volume24h": 4604255.4326
+        "markPrice": 0.339415438,
+        "volume24h": 4654971.1698
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1133,8 +1133,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 8.253243172e-05,
-        "markPrice": 0.33379407,
+        "fundingRate": 9.421996689e-05,
+        "markPrice": 0.33968118,
         "volume24h": 11.5402
       }
     },
@@ -1142,32 +1142,32 @@
       "symbol": "kLUNC",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.052913,
-        "volume24h": 41518.325084
+        "markPrice": 0.053403,
+        "volume24h": 43076.173278
       }
     },
     {
       "symbol": "RSR",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.001737,
-        "volume24h": 74929.658127
+        "markPrice": 0.001757,
+        "volume24h": 73312.624623
       }
     },
     {
       "symbol": "GALA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.002486,
-        "volume24h": 248977.5384589999
+        "markPrice": 0.002553,
+        "volume24h": 226589.376729
       }
     },
     {
       "symbol": "JTO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.56959,
-        "volume24h": 1336864.0309899999
+        "markPrice": 0.57444,
+        "volume24h": 1336179.7762499996
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1175,8 +1175,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 7.038598794e-05,
-        "markPrice": 0.56865324,
+        "fundingRate": 3.932144086e-05,
+        "markPrice": 0.57526419,
         "volume24h": 103.08389
       }
     },
@@ -1192,8 +1192,8 @@
       "symbol": "ACE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.188,
-        "volume24h": 296095.132566
+        "markPrice": 0.1903,
+        "volume24h": 303270.095123
       }
     },
     {
@@ -1208,13 +1208,13 @@
       "symbol": "WIF",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.25144,
-        "volume24h": 885322.6324400002
+        "markPrice": 0.25702,
+        "volume24h": 946796.2861500004
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.2509,
-        "volume24h": 400742.25028000004
+        "markPrice": 0.256497151,
+        "volume24h": 409230.02238
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1226,69 +1226,69 @@
       "symbol": "CAKE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 2.5047,
-        "volume24h": 345860.7030100001
+        "markPrice": 2.51291,
+        "volume24h": 348707.92696
       }
     },
     {
       "symbol": "PEOPLE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.008902,
-        "volume24h": 63494.38014
+        "markPrice": 0.009046,
+        "volume24h": 65628.706395
       }
     },
     {
       "symbol": "ENS",
       "hyperliquid": {
-        "fundingRate": 1.25e-05,
-        "markPrice": 6.8853,
-        "volume24h": 198439.7578130001
+        "fundingRate": 1.31793e-05,
+        "markPrice": 6.9609,
+        "volume24h": 199000.9170350001
       }
     },
     {
       "symbol": "ETC",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 8.9665,
-        "volume24h": 267027.872208
+        "markPrice": 9.0469,
+        "volume24h": 279144.374888
       }
     },
     {
       "symbol": "XAI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.00989,
-        "volume24h": 81223.959018
+        "markPrice": 0.00997,
+        "volume24h": 83375.854926
       }
     },
     {
       "symbol": "MANTA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.07102,
-        "volume24h": 102911.415672
+        "markPrice": 0.07145,
+        "volume24h": 102819.774256
       }
     },
     {
       "symbol": "UMA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.41434,
-        "volume24h": 87732.121502
+        "markPrice": 0.42032,
+        "volume24h": 121018.591195
       }
     },
     {
       "symbol": "ONDO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.49986,
-        "volume24h": 11215536.328009997
+        "markPrice": 0.5056,
+        "volume24h": 11157864.428249996
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.499374168,
-        "volume24h": 378651.99644
+        "markPrice": 0.505400559,
+        "volume24h": 361194.36336
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1296,33 +1296,33 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.965920449e-05,
-        "markPrice": 0.49994354,
+        "fundingRate": 9.989127821e-05,
+        "markPrice": 0.50641211,
         "volume24h": 161.49299
       }
     },
     {
       "symbol": "ALT",
       "hyperliquid": {
-        "fundingRate": 6.3222e-06,
-        "markPrice": 0.007856,
-        "volume24h": 120413.622456
+        "fundingRate": -1.01732e-05,
+        "markPrice": 0.007908,
+        "volume24h": 126896.850197
       }
     },
     {
       "symbol": "ZETA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.05157,
-        "volume24h": 123355.147937
+        "markPrice": 0.05135,
+        "volume24h": 121415.4748
       }
     },
     {
       "symbol": "DYM",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.01962,
-        "volume24h": 154467.5581009999
+        "markPrice": 0.01965,
+        "volume24h": 142970.040207
       }
     },
     {
@@ -1337,13 +1337,13 @@
       "symbol": "W",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.0146,
-        "volume24h": 1330299.1645009997
+        "markPrice": 0.01461,
+        "volume24h": 1266386.1041429995
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.014563999,
-        "volume24h": 347856.419992
+        "markPrice": 0.014583173,
+        "volume24h": 348016.454391
       }
     },
     {
@@ -1357,24 +1357,24 @@
     {
       "symbol": "STRK",
       "hyperliquid": {
-        "fundingRate": 1.54585e-05,
-        "markPrice": 0.05775,
-        "volume24h": 10563345.058309993
+        "fundingRate": 2.49452e-05,
+        "markPrice": 0.05724,
+        "volume24h": 10706580.092310006
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.057557088,
-        "volume24h": 3684660.59368
+        "markPrice": 0.057088163,
+        "volume24h": 3652749.880002
       },
       "lighter": {
-        "fundingRate": 0.000424,
+        "fundingRate": 0.000776,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 0.00010008004118,
-        "markPrice": 0.05732854,
-        "volume24h": 6507.85618
+        "fundingRate": 0.00010038123516,
+        "markPrice": 0.05727317,
+        "volume24h": 7060.52708
       }
     },
     {
@@ -1393,7 +1393,7 @@
         "volume24h": 0.0
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 0.001696,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -1402,13 +1402,13 @@
       "symbol": "TAO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 299.097,
-        "volume24h": 16763051.779850004
+        "markPrice": 304.49,
+        "volume24h": 17088964.108260002
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 298.74482637,
-        "volume24h": 697231.3461
+        "markPrice": 304.263730662,
+        "volume24h": 704285.3903399999
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1416,8 +1416,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.942832856e-05,
-        "markPrice": 299.42080129,
+        "fundingRate": 9.985220163e-05,
+        "markPrice": 305.82410585,
         "volume24h": 11815.204689999999
       }
     },
@@ -1425,8 +1425,8 @@
       "symbol": "AR",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 4.4439,
-        "volume24h": 852569.3418319997
+        "markPrice": 4.4748,
+        "volume24h": 835520.3913619999
       }
     },
     {
@@ -1441,33 +1441,33 @@
       "symbol": "kFLOKI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.02947,
-        "volume24h": 1028441.3904880002
+        "markPrice": 0.029581,
+        "volume24h": 1038371.8349270001
       }
     },
     {
       "symbol": "BOME",
       "hyperliquid": {
-        "fundingRate": 5.76626e-05,
-        "markPrice": 0.001025,
-        "volume24h": 186554.764848
+        "fundingRate": 8.56544e-05,
+        "markPrice": 0.001028,
+        "volume24h": 188214.110569
       }
     },
     {
       "symbol": "ETHFI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.75304,
-        "volume24h": 1861415.0060899993
+        "markPrice": 0.76756,
+        "volume24h": 2176998.963599999
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 0.000496,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.883706965e-05,
-        "markPrice": 0.75181442,
+        "fundingRate": 9.962591444e-05,
+        "markPrice": 0.76680379,
         "volume24h": 111.3687
       }
     },
@@ -1475,22 +1475,22 @@
       "symbol": "ENA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.23689,
-        "volume24h": 24953954.482159987
+        "markPrice": 0.24966,
+        "volume24h": 26704707.578090016
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.236641042,
-        "volume24h": 4836779.76286
+        "markPrice": 0.249387492,
+        "volume24h": 5065944.6941599995
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 0.000104,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.99611517e-05,
-        "markPrice": 0.23724055,
+        "fundingRate": 0.00010002900435,
+        "markPrice": 0.25088513,
         "volume24h": 0.0
       }
     },
@@ -1498,8 +1498,8 @@
       "symbol": "MNT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.65054,
-        "volume24h": 346989.4052479999
+        "markPrice": 0.65765,
+        "volume24h": 321828.484813
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1511,40 +1511,40 @@
       "symbol": "TNSR",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.03937,
-        "volume24h": 9786.82692
+        "markPrice": 0.03954,
+        "volume24h": 9250.401955
       }
     },
     {
       "symbol": "SAGA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.02335,
-        "volume24h": 444793.3573090002
+        "markPrice": 0.02336,
+        "volume24h": 445279.4853850001
       }
     },
     {
       "symbol": "MERL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.032115,
-        "volume24h": 194924.4477749999
+        "markPrice": 0.032356,
+        "volume24h": 207509.1338719999
       }
     },
     {
       "symbol": "HBAR",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.103097,
-        "volume24h": 1447888.0855399997
+        "markPrice": 0.1043,
+        "volume24h": 1453571.6574799998
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.10300559,
-        "volume24h": 427635.54491
+        "markPrice": 0.104139101,
+        "volume24h": 425821.30082999996
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 6.4e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -1553,13 +1553,13 @@
       "symbol": "POPCAT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.05376,
-        "volume24h": 140351.605625
+        "markPrice": 0.05468,
+        "volume24h": 140979.184887
       },
       "grvt": {
-        "fundingRate": 0.0028625,
-        "markPrice": 0.05374,
-        "volume24h": 406542.68853000004
+        "fundingRate": 0.0024125,
+        "markPrice": 0.054692471,
+        "volume24h": 416574.9946
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1579,13 +1579,13 @@
       "symbol": "EIGEN",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.2611,
-        "volume24h": 611678.257945
+        "markPrice": 0.2645,
+        "volume24h": 625856.322906
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.260901148,
-        "volume24h": 386113.41322
+        "markPrice": 0.264261162,
+        "volume24h": 390298.98693
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1597,53 +1597,53 @@
       "symbol": "REZ",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.004161,
-        "volume24h": 223482.3270470001
+        "markPrice": 0.004203,
+        "volume24h": 229174.5373200001
       }
     },
     {
       "symbol": "NOT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.000499,
-        "volume24h": 45374.713679
+        "markPrice": 0.000504,
+        "volume24h": 47437.529146
       }
     },
     {
       "symbol": "TURBO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.001046,
-        "volume24h": 70990.797834
+        "markPrice": 0.001058,
+        "volume24h": 71581.490465
       }
     },
     {
       "symbol": "BRETT",
       "hyperliquid": {
-        "fundingRate": 1.25e-05,
-        "markPrice": 0.005905,
-        "volume24h": 108122.493387
+        "fundingRate": 4.94085e-05,
+        "markPrice": 0.00596,
+        "volume24h": 106907.728246
       }
     },
     {
       "symbol": "IO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.17213,
-        "volume24h": 730937.6635969995
+        "markPrice": 0.1742,
+        "volume24h": 680695.1017799998
       }
     },
     {
       "symbol": "ZK",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.012927,
-        "volume24h": 475518.0927209999
+        "markPrice": 0.01301,
+        "volume24h": 471297.080718
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.012922752,
-        "volume24h": 2259249.302438
+        "markPrice": 0.013007644,
+        "volume24h": 2203671.1220239997
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1679,8 +1679,8 @@
       "symbol": "RENDER",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.9951,
-        "volume24h": 482877.8501100001
+        "markPrice": 2.0254,
+        "volume24h": 554412.4392100001
       }
     },
     {
@@ -1695,13 +1695,13 @@
       "symbol": "POL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.10913,
-        "volume24h": 409301.8756600001
+        "markPrice": 0.11021,
+        "volume24h": 432383.63004
       },
       "grvt": {
-        "fundingRate": -0.000375,
-        "markPrice": 0.108999999,
-        "volume24h": 3115640.04749
+        "fundingRate": -0.000175,
+        "markPrice": 0.110266107,
+        "volume24h": 3105643.77204
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1721,16 +1721,16 @@
       "symbol": "CELO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.105912,
-        "volume24h": 127854.37301
+        "markPrice": 0.105758,
+        "volume24h": 170349.665296
       }
     },
     {
       "symbol": "HMSTR",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.000172,
-        "volume24h": 12981.815248
+        "markPrice": 0.000174,
+        "volume24h": 20087.113917
       }
     },
     {
@@ -1753,40 +1753,40 @@
       "symbol": "kNEIRO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.09244,
-        "volume24h": 104437.317263
+        "markPrice": 0.09408,
+        "volume24h": 105623.977204
       }
     },
     {
       "symbol": "GOAT",
       "hyperliquid": {
-        "fundingRate": 1.25e-05,
-        "markPrice": 0.01866,
-        "volume24h": 122169.030673
+        "fundingRate": 5.32995e-05,
+        "markPrice": 0.018878,
+        "volume24h": 122678.561981
       }
     },
     {
       "symbol": "MOODENG",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.046972,
-        "volume24h": 76782.103732
+        "markPrice": 0.047286,
+        "volume24h": 78034.166211
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.046959999,
-        "volume24h": 518828.35199999996
+        "markPrice": 0.047264474,
+        "volume24h": 506888.49736000004
       }
     },
     {
       "symbol": "GRASS",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.68685,
-        "volume24h": 6636981.965008007
+        "markPrice": 0.6917,
+        "volume24h": 6499776.077798999
       },
       "lighter": {
-        "fundingRate": 0.000736,
+        "fundingRate": 0.000784,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -1795,29 +1795,29 @@
       "symbol": "PURR",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.16191,
-        "volume24h": 1419887.37332
+        "markPrice": 0.16549,
+        "volume24h": 1502230.1154699996
       }
     },
     {
       "symbol": "PNUT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.05448,
-        "volume24h": 88341.757096
+        "markPrice": 0.05527,
+        "volume24h": 89893.345711
       }
     },
     {
       "symbol": "XLM",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.222866,
-        "volume24h": 3212067.2694199984
+        "markPrice": 0.22397,
+        "volume24h": 3201701.497879998
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.222570948,
-        "volume24h": 645983.52453
+        "markPrice": 0.223772036,
+        "volume24h": 633495.62571
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1836,38 +1836,38 @@
     {
       "symbol": "SAND",
       "hyperliquid": {
-        "fundingRate": -9.10799e-05,
-        "markPrice": 0.072983,
-        "volume24h": 29813260.50072799
+        "fundingRate": -0.0001176033,
+        "markPrice": 0.072731,
+        "volume24h": 27148924.140993007
       }
     },
     {
       "symbol": "IOTA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.058762,
-        "volume24h": 1581617.4683270003
+        "markPrice": 0.059659,
+        "volume24h": 1607809.7956489997
       }
     },
     {
       "symbol": "ALGO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.13204,
-        "volume24h": 1201264.2274600004
+        "markPrice": 0.13189,
+        "volume24h": 1085058.7581099998
       }
     },
     {
       "symbol": "HYPE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 91.2768,
-        "volume24h": 267808637.78969988
+        "markPrice": 92.284,
+        "volume24h": 290586964.6134999
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 91.295000046,
-        "volume24h": 332814.99638
+        "markPrice": 92.289000087,
+        "volume24h": 512434.93483
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1876,7 +1876,7 @@
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 33.59808515,
+        "markPrice": 32.67308928,
         "volume24h": 0.0
       }
     },
@@ -1884,29 +1884,29 @@
       "symbol": "ME",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.07687,
-        "volume24h": 70242.443857
+        "markPrice": 0.07724,
+        "volume24h": 70264.44049
       }
     },
     {
       "symbol": "MOVE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.01011,
-        "volume24h": 219035.9130409999
+        "markPrice": 0.010235,
+        "volume24h": 215535.063395
       }
     },
     {
       "symbol": "VIRTUAL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.8649,
-        "volume24h": 4903356.763008002
+        "markPrice": 0.87664,
+        "volume24h": 4969670.249741001
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.8626,
-        "volume24h": 969215.16908
+        "markPrice": 0.875477103,
+        "volume24h": 962323.48893
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1918,13 +1918,13 @@
       "symbol": "PENGU",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.009774,
-        "volume24h": 2613397.873117001
+        "markPrice": 0.009986,
+        "volume24h": 2682803.4032110004
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.009763876,
-        "volume24h": 2375323.598498
+        "markPrice": 0.009961113,
+        "volume24h": 2318190.974043
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -1936,24 +1936,24 @@
       "symbol": "USUAL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.01313,
-        "volume24h": 94108.092423
+        "markPrice": 0.01327,
+        "volume24h": 94991.504618
       }
     },
     {
       "symbol": "FARTCOIN",
       "hyperliquid": {
-        "fundingRate": 1.25e-05,
-        "markPrice": 0.18508,
-        "volume24h": 7938015.584038002
+        "fundingRate": 2.83623e-05,
+        "markPrice": 0.18975,
+        "volume24h": 8141932.348304001
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.184901838,
-        "volume24h": 3934788.1655099997
+        "markPrice": 0.189790864,
+        "volume24h": 3770537.5549999997
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 0.000248,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -1975,8 +1975,8 @@
       "symbol": "AIXBT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.023195,
-        "volume24h": 103869.016997
+        "markPrice": 0.023467,
+        "volume24h": 104346.125769
       }
     },
     {
@@ -1990,9 +1990,9 @@
     {
       "symbol": "BIO",
       "hyperliquid": {
-        "fundingRate": 1.25e-05,
-        "markPrice": 0.030624,
-        "volume24h": 123496.62029
+        "fundingRate": 3.60365e-05,
+        "markPrice": 0.031264,
+        "volume24h": 124067.475339
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2003,20 +2003,20 @@
     {
       "symbol": "GRIFFAIN",
       "hyperliquid": {
-        "fundingRate": 0.0001130981,
-        "markPrice": 0.01815,
-        "volume24h": 299141.707807
+        "fundingRate": 0.0001922311,
+        "markPrice": 0.018859,
+        "volume24h": 296060.754527
       }
     },
     {
       "symbol": "SPX",
       "hyperliquid": {
-        "fundingRate": 6.42065e-05,
-        "markPrice": 0.44338,
-        "volume24h": 1364625.696619
+        "fundingRate": 0.0001027009,
+        "markPrice": 0.44993,
+        "volume24h": 1367719.235292
       },
       "lighter": {
-        "fundingRate": 0.00040800000000000005,
+        "fundingRate": 0.000968,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2025,8 +2025,8 @@
       "symbol": "S",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.040538,
-        "volume24h": 451692.1340050001
+        "markPrice": 0.041385,
+        "volume24h": 480765.1305730001
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2038,13 +2038,13 @@
       "symbol": "MORPHO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 2.6931,
-        "volume24h": 1070969.1210399999
+        "markPrice": 2.7066,
+        "volume24h": 1056777.81215
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 2.685705171,
-        "volume24h": 87620.59492
+        "markPrice": 2.700100409,
+        "volume24h": 93240.2941
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2052,8 +2052,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.984077382e-05,
-        "markPrice": 2.6893809,
+        "fundingRate": 9.896736338e-05,
+        "markPrice": 2.70249225,
         "volume24h": 0.0
       }
     },
@@ -2061,13 +2061,13 @@
       "symbol": "TRUMP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 2.0564,
-        "volume24h": 2708877.7148699993
+        "markPrice": 2.0785,
+        "volume24h": 2662917.2411700003
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 2.054113063,
-        "volume24h": 4708386.21501
+        "markPrice": 2.077028716,
+        "volume24h": 4647766.87669
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2075,8 +2075,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.999494542e-05,
-        "markPrice": 2.05643521,
+        "fundingRate": 9.998293016e-05,
+        "markPrice": 2.07566429,
         "volume24h": 0.0
       }
     },
@@ -2084,16 +2084,16 @@
       "symbol": "MELANIA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.10391,
-        "volume24h": 64247.735697
+        "markPrice": 0.10519,
+        "volume24h": 71498.185838
       }
     },
     {
       "symbol": "ANIME",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.003377,
-        "volume24h": 55373.432437
+        "markPrice": 0.003403,
+        "volume24h": 53639.70844
       }
     },
     {
@@ -2107,18 +2107,18 @@
     {
       "symbol": "VVV",
       "hyperliquid": {
-        "fundingRate": 6.29642e-05,
-        "markPrice": 29.564,
-        "volume24h": 9621417.275779981
+        "fundingRate": 7.87985e-05,
+        "markPrice": 29.755,
+        "volume24h": 9914079.765799997
       },
       "lighter": {
-        "fundingRate": 0.00048,
+        "fundingRate": 0.000512,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 0.00044741267678,
-        "markPrice": 29.50558309,
+        "fundingRate": 0.00044909502175,
+        "markPrice": 29.76482037,
         "volume24h": 0.0
       }
     },
@@ -2134,13 +2134,13 @@
       "symbol": "BERA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.23037,
-        "volume24h": 147714.513441
+        "markPrice": 0.23204,
+        "volume24h": 158301.037016
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.230466687,
-        "volume24h": 3740490.98306
+        "markPrice": 0.231912124,
+        "volume24h": 3708417.35176
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2160,8 +2160,8 @@
       "symbol": "LAYER",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.077936,
-        "volume24h": 60718.712099
+        "markPrice": 0.078378,
+        "volume24h": 59933.793213
       }
     },
     {
@@ -2184,13 +2184,13 @@
       "symbol": "KAITO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.34635,
-        "volume24h": 609859.1721999998
+        "markPrice": 0.351,
+        "volume24h": 605935.50175
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.3458,
-        "volume24h": 1931515.48251
+        "markPrice": 0.350203694,
+        "volume24h": 1950525.35483
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2198,8 +2198,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.707853177e-05,
-        "markPrice": 0.34591672,
+        "fundingRate": 9.492288441e-05,
+        "markPrice": 0.35070948,
         "volume24h": 0.0
       }
     },
@@ -2207,21 +2207,21 @@
       "symbol": "NIL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.10711,
-        "volume24h": 5050827.5733389985
+        "markPrice": 0.095058,
+        "volume24h": 5809468.806548
       }
     },
     {
       "symbol": "PAXG",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 4158.4,
-        "volume24h": 1144835.9746000003
+        "markPrice": 4162.926,
+        "volume24h": 1155157.4866
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 4156.802533239,
-        "volume24h": 2214911.1235499997
+        "markPrice": 4163.389152576,
+        "volume24h": 2220353.94625
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2229,8 +2229,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.996594835e-05,
-        "markPrice": 4155.92941221,
+        "fundingRate": 9.999075221e-05,
+        "markPrice": 4162.74497037,
         "volume24h": 263518.98303999996
       }
     },
@@ -2246,32 +2246,32 @@
       "symbol": "BABY",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.013719,
-        "volume24h": 117790.5945159999
+        "markPrice": 0.013824,
+        "volume24h": 122419.4967609999
       }
     },
     {
       "symbol": "WCT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.042941,
-        "volume24h": 93988.188093
+        "markPrice": 0.043317,
+        "volume24h": 95389.679397
       }
     },
     {
       "symbol": "HYPER",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.071828,
-        "volume24h": 42764.435634
+        "markPrice": 0.072388,
+        "volume24h": 43534.802036
       }
     },
     {
       "symbol": "ZORA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.00778,
-        "volume24h": 136209.347267
+        "markPrice": 0.007869,
+        "volume24h": 122330.403798
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2283,8 +2283,8 @@
       "symbol": "INIT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.11902,
-        "volume24h": 235527.79815
+        "markPrice": 0.11863,
+        "volume24h": 230853.60683
       }
     },
     {
@@ -2311,33 +2311,33 @@
     {
       "symbol": "NXPC",
       "hyperliquid": {
-        "fundingRate": -6.40853e-05,
-        "markPrice": 0.23532,
-        "volume24h": 72691.87362
+        "fundingRate": -6.3182e-06,
+        "markPrice": 0.2366,
+        "volume24h": 74660.86125
       }
     },
     {
       "symbol": "SOPH",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.003827,
-        "volume24h": 24488.325101
+        "markPrice": 0.003837,
+        "volume24h": 26787.195237
       }
     },
     {
       "symbol": "RESOLV",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.01944,
-        "volume24h": 211776.797721
+        "markPrice": 0.019773,
+        "volume24h": 256405.9069289999
       }
     },
     {
       "symbol": "SYRUP",
       "hyperliquid": {
-        "fundingRate": 1.25e-05,
-        "markPrice": 0.25431,
-        "volume24h": 995697.6825999998
+        "fundingRate": 3.82796e-05,
+        "markPrice": 0.25401,
+        "volume24h": 966262.4508099998
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2349,36 +2349,36 @@
       "symbol": "PUMP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.006396,
-        "volume24h": 144044658.48692897
+        "markPrice": 0.006464,
+        "volume24h": 140654936.77873904
       },
       "grvt": {
-        "fundingRate": -2.5e-05,
-        "markPrice": 0.006382528,
-        "volume24h": 10582024.420358
+        "fundingRate": 2.5e-05,
+        "markPrice": 0.006459999,
+        "volume24h": 10464076.059209999
       },
       "lighter": {
-        "fundingRate": 0.000576,
+        "fundingRate": 0.000272,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.906953713e-05,
-        "markPrice": 0.00639205,
-        "volume24h": 250.1274897
+        "fundingRate": 9.945150369e-05,
+        "markPrice": 0.00644889,
+        "volume24h": 269.1439957
       }
     },
     {
       "symbol": "PROVE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.21315,
-        "volume24h": 72778.92476
+        "markPrice": 0.21332,
+        "volume24h": 78022.67196
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.213299999,
-        "volume24h": 444665.36058
+        "markPrice": 0.213403355,
+        "volume24h": 441901.55736
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2403,13 +2403,13 @@
       "symbol": "XPL",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.09516,
-        "volume24h": 9223472.881585
+        "markPrice": 0.096461,
+        "volume24h": 9290582.679583997
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.095049506,
-        "volume24h": 103305.77760999999
+        "markPrice": 0.096369998,
+        "volume24h": 113524.82112000001
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2417,22 +2417,22 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.979746756e-05,
-        "markPrice": 0.09522058,
+        "fundingRate": 9.993375386e-05,
+        "markPrice": 0.09654157,
         "volume24h": 114.65999999999998
       }
     },
     {
       "symbol": "WLFI",
       "hyperliquid": {
-        "fundingRate": -2.1756e-06,
-        "markPrice": 0.054976,
-        "volume24h": 242906.295433
+        "fundingRate": 4.6332e-06,
+        "markPrice": 0.055097,
+        "volume24h": 226482.6103590001
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.055009999,
-        "volume24h": 854888.96799
+        "markPrice": 0.055118819,
+        "volume24h": 853155.48752
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2440,8 +2440,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 7.69898659e-05,
-        "markPrice": 0.05499244,
+        "fundingRate": 5.60965052e-05,
+        "markPrice": 0.05512617,
         "volume24h": 0.0
       }
     },
@@ -2449,13 +2449,13 @@
       "symbol": "LINEA",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.002871,
-        "volume24h": 114322.876267
+        "markPrice": 0.002904,
+        "volume24h": 111891.033486
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.002864916,
-        "volume24h": 452829.48364
+        "markPrice": 0.002894923,
+        "volume24h": 451216.03185
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2466,12 +2466,12 @@
     {
       "symbol": "SKY",
       "hyperliquid": {
-        "fundingRate": 2.04161e-05,
-        "markPrice": 0.0954,
-        "volume24h": 1445220.9380430002
+        "fundingRate": 5.54695e-05,
+        "markPrice": 0.095705,
+        "volume24h": 1365957.2910159996
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 0.000136,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2480,13 +2480,13 @@
       "symbol": "ASTER",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.71747,
-        "volume24h": 1943724.1239000002
+        "markPrice": 0.72298,
+        "volume24h": 1969857.483660001
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.717000001,
-        "volume24h": 3464228.7719
+        "markPrice": 0.7228,
+        "volume24h": 3312840.5973
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2498,13 +2498,13 @@
       "symbol": "AVNT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.13324,
-        "volume24h": 276565.5226899998
+        "markPrice": 0.13309,
+        "volume24h": 279403.4390299999
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.133141284,
-        "volume24h": 962496.30608
+        "markPrice": 0.133098536,
+        "volume24h": 973290.99835
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2515,9 +2515,9 @@
     {
       "symbol": "STBL",
       "hyperliquid": {
-        "fundingRate": 3.00078e-05,
-        "markPrice": 0.025477,
-        "volume24h": 112560.0986570001
+        "fundingRate": 1.90712e-05,
+        "markPrice": 0.025659,
+        "volume24h": 117880.476044
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2529,11 +2529,11 @@
       "symbol": "0G",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.3049,
-        "volume24h": 224348.48825
+        "markPrice": 0.30622,
+        "volume24h": 225767.36637
       },
       "lighter": {
-        "fundingRate": 0.00037600000000000003,
+        "fundingRate": 0.000472,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2542,16 +2542,16 @@
       "symbol": "HEMI",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.006001,
-        "volume24h": 106235.3684199999
+        "markPrice": 0.005999,
+        "volume24h": 107305.536944
       }
     },
     {
       "symbol": "APEX",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.24179,
-        "volume24h": 147184.5315300001
+        "markPrice": 0.243722,
+        "volume24h": 150366.69083
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2562,9 +2562,9 @@
     {
       "symbol": "2Z",
       "hyperliquid": {
-        "fundingRate": -0.0001698932,
-        "markPrice": 0.044609,
-        "volume24h": 634287.9078999998
+        "fundingRate": -6.36129e-05,
+        "markPrice": 0.045097,
+        "volume24h": 685527.019844
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2575,14 +2575,14 @@
     {
       "symbol": "ZEC",
       "hyperliquid": {
-        "fundingRate": 1.99233e-05,
-        "markPrice": 1321.8539,
-        "volume24h": 217594543.6860004
+        "fundingRate": 3.07456e-05,
+        "markPrice": 1321.6,
+        "volume24h": 216997067.55999994
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 1320.855540029,
-        "volume24h": 504530.57308
+        "markPrice": 1320.699659355,
+        "volume24h": 506237.61711
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2591,21 +2591,21 @@
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 2.71130732,
+        "markPrice": 2.41691572,
         "volume24h": 0.0
       }
     },
     {
       "symbol": "MON",
       "hyperliquid": {
-        "fundingRate": 4.28858e-05,
-        "markPrice": 0.032421,
-        "volume24h": 7267645.055183004
+        "fundingRate": 5.80347e-05,
+        "markPrice": 0.032744,
+        "volume24h": 7371431.881424001
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.032349999,
-        "volume24h": 351421.88051
+        "markPrice": 0.032730474,
+        "volume24h": 357589.31094
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2613,8 +2613,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.975986316e-05,
-        "markPrice": 0.03235088,
+        "fundingRate": 9.991914249e-05,
+        "markPrice": 0.03272677,
         "volume24h": 50.006542
       }
     },
@@ -2622,8 +2622,8 @@
       "symbol": "MET",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.29903,
-        "volume24h": 911470.10587
+        "markPrice": 0.30389,
+        "volume24h": 907887.1610500001
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2634,17 +2634,17 @@
     {
       "symbol": "MEGA",
       "hyperliquid": {
-        "fundingRate": 5.91988e-05,
-        "markPrice": 0.050407,
-        "volume24h": 454271.8198039999
+        "fundingRate": 1.25e-05,
+        "markPrice": 0.051261,
+        "volume24h": 605909.660229
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.050279461,
-        "volume24h": 392578.49017
+        "markPrice": 0.051128997,
+        "volume24h": 406919.07095
       },
       "lighter": {
-        "fundingRate": 0.00032,
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2653,13 +2653,13 @@
       "symbol": "CC",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.12574,
-        "volume24h": 1086598.9291399997
+        "markPrice": 0.12692,
+        "volume24h": 1081806.32807
       },
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.12569,
-        "volume24h": 400642.86769
+        "markPrice": 0.126846466,
+        "volume24h": 400673.35912000004
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2667,8 +2667,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 8.947029318e-05,
-        "markPrice": 0.12575566,
+        "fundingRate": 9.714035131e-05,
+        "markPrice": 0.12682415,
         "volume24h": 0.0
       }
     },
@@ -2676,13 +2676,13 @@
       "symbol": "ICP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 3.2836,
-        "volume24h": 1536763.2238999992
+        "markPrice": 3.3102,
+        "volume24h": 1482728.111839999
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 3.277974486,
-        "volume24h": 332572.677
+        "markPrice": 3.305394749,
+        "volume24h": 333720.951
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2694,11 +2694,11 @@
       "symbol": "AERO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.85869,
-        "volume24h": 7628385.691390004
+        "markPrice": 0.86422,
+        "volume24h": 7698412.7592600025
       },
       "lighter": {
-        "fundingRate": 0.000344,
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2707,8 +2707,8 @@
       "symbol": "STABLE",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.026893,
-        "volume24h": 139090.944956
+        "markPrice": 0.026997,
+        "volume24h": 142281.063214
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2720,8 +2720,8 @@
       "symbol": "FOGO",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.005494,
-        "volume24h": 108940.595389
+        "markPrice": 0.005542,
+        "volume24h": 115341.541903
       },
       "lighter": {
         "fundingRate": 0.0001,
@@ -2733,45 +2733,45 @@
       "symbol": "LIT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 3.7729,
-        "volume24h": 23063357.083100006
+        "markPrice": 3.8426,
+        "volume24h": 24012474.228800002
       },
       "grvt": {
-        "fundingRate": 0.0005375,
-        "markPrice": 3.768053614,
-        "volume24h": 1827580.54215
+        "fundingRate": -0.0004375,
+        "markPrice": 3.837598097,
+        "volume24h": 1901769.47406
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": -8.0e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 3.357277873e-05,
-        "markPrice": 3.75450166,
-        "volume24h": 721.8755
+        "fundingRate": -9.373663062e-05,
+        "markPrice": 3.83381151,
+        "volume24h": 908.62432
       }
     },
     {
       "symbol": "XMR",
       "hyperliquid": {
-        "fundingRate": 3.10494e-05,
-        "markPrice": 539.607,
-        "volume24h": 6371986.166559998
+        "fundingRate": 3.49736e-05,
+        "markPrice": 541.89,
+        "volume24h": 6422762.245839998
       },
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 539.516782111,
-        "volume24h": 818999.78147
+        "markPrice": 541.620000758,
+        "volume24h": 808674.26129
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 0.000104,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 0.0001690870077,
-        "markPrice": 539.12228192,
+        "fundingRate": 0.0001336290997,
+        "markPrice": 542.21940223,
         "volume24h": 538.8
       }
     },
@@ -2779,13 +2779,13 @@
       "symbol": "AXS",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.3134,
-        "volume24h": 913525.9077699998
+        "markPrice": 1.3126,
+        "volume24h": 821703.6445699999
       },
       "grvt": {
-        "fundingRate": -0.0015,
-        "markPrice": 1.313512676,
-        "volume24h": 1207821.0167999999
+        "fundingRate": -0.0023875,
+        "markPrice": 1.312569446,
+        "volume24h": 1108535.1524
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2797,8 +2797,8 @@
       "symbol": "DASH",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 60.3966,
-        "volume24h": 573101.6359999998
+        "markPrice": 60.546,
+        "volume24h": 731868.8100999997
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2809,9 +2809,9 @@
     {
       "symbol": "SKR",
       "hyperliquid": {
-        "fundingRate": 6.064e-05,
-        "markPrice": 0.018398,
-        "volume24h": 633812.9403249997
+        "fundingRate": 1.25e-05,
+        "markPrice": 0.018392,
+        "volume24h": 630775.4505309998
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2822,9 +2822,9 @@
     {
       "symbol": "AZTEC",
       "hyperliquid": {
-        "fundingRate": 4.65107e-05,
-        "markPrice": 0.01748,
-        "volume24h": 202927.5426370001
+        "fundingRate": 3.11955e-05,
+        "markPrice": 0.017574,
+        "volume24h": 199340.1785710001
       },
       "lighter": {
         "fundingRate": 0.000744,
@@ -2836,8 +2836,8 @@
       "symbol": "CHIP",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.048786,
-        "volume24h": 4386510.252500999
+        "markPrice": 0.049836,
+        "volume24h": 4432783.895702997
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -2849,17 +2849,17 @@
       "symbol": "GRAM",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 1.5295,
-        "volume24h": 2613472.9604
+        "markPrice": 1.5475,
+        "volume24h": 2646833.8969
       },
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": 0.00019199999999999998,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.926067413e-05,
-        "markPrice": 1.52769398,
+        "fundingRate": 9.978812336e-05,
+        "markPrice": 1.54697956,
         "volume24h": 0.0
       }
     },
@@ -2867,11 +2867,11 @@
       "symbol": "CASHCAT",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.15947,
-        "volume24h": 4484153.793410003
+        "markPrice": 0.164332,
+        "volume24h": 4493899.716330001
       },
       "lighter": {
-        "fundingRate": 0.002832,
+        "fundingRate": 0.00308,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2879,12 +2879,12 @@
     {
       "symbol": "PONS",
       "hyperliquid": {
-        "fundingRate": 3.26532e-05,
-        "markPrice": 0.387,
-        "volume24h": 16789357.589029934
+        "fundingRate": 2.87042e-05,
+        "markPrice": 0.4039,
+        "volume24h": 17573660.26613
       },
       "lighter": {
-        "fundingRate": 0.001392,
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2893,11 +2893,11 @@
       "symbol": "USELESS",
       "hyperliquid": {
         "fundingRate": 1.25e-05,
-        "markPrice": 0.23482,
-        "volume24h": 2676408.319259999
+        "markPrice": 0.23866,
+        "volume24h": 2631175.186179999
       },
       "lighter": {
-        "fundingRate": 0.000304,
+        "fundingRate": 0.00035999999999999997,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2906,8 +2906,8 @@
       "symbol": "AAOI",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 117.165600342,
-        "volume24h": 136280.44890000002
+        "markPrice": 117.100000093,
+        "volume24h": 134724.64659999998
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -2919,8 +2919,8 @@
       "symbol": "AAPL",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 332.820000299,
-        "volume24h": 397864.6668
+        "markPrice": 332.710000266,
+        "volume24h": 378986.1935
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -2932,19 +2932,19 @@
       "symbol": "AMAT",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 541.610000487,
-        "volume24h": 127857.2001
+        "markPrice": 541.550000433,
+        "volume24h": 127833.072
       }
     },
     {
       "symbol": "AMD",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 633.343884721,
-        "volume24h": 98974.0316
+        "markPrice": 635.070000508,
+        "volume24h": 94913.12
       },
       "lighter": {
-        "fundingRate": 0.0,
+        "fundingRate": 3.2e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -2952,9 +2952,9 @@
     {
       "symbol": "AMZN",
       "grvt": {
-        "fundingRate": 0.00105,
-        "markPrice": 251.320054447,
-        "volume24h": 319813.8226
+        "fundingRate": 0.0013375,
+        "markPrice": 251.2700002,
+        "volume24h": 322080.1241
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -2966,8 +2966,8 @@
       "symbol": "ANTHROPIC",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 2030.589801828,
-        "volume24h": 83234.24650000001
+        "markPrice": 2029.994601624,
+        "volume24h": 80118.2292
       },
       "lighter": {
         "fundingRate": 0.0,
@@ -2979,8 +2979,8 @@
       "symbol": "ARM",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 308.586508432,
-        "volume24h": 122801.2481
+        "markPrice": 309.460000247,
+        "volume24h": 121853.9621
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -2991,9 +2991,9 @@
     {
       "symbol": "ASML",
       "grvt": {
-        "fundingRate": 0.000325,
-        "markPrice": 1863.300001677,
-        "volume24h": 118032.9721
+        "fundingRate": 0.0,
+        "markPrice": 1859.743952209,
+        "volume24h": 120682.1942
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3005,16 +3005,16 @@
       "symbol": "ASTS",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 58.869063127,
-        "volume24h": 123547.7086
+        "markPrice": 58.890000046,
+        "volume24h": 121488.09419999999
       }
     },
     {
       "symbol": "AVGO",
       "grvt": {
-        "fundingRate": 0.002675,
-        "markPrice": 357.400134005,
-        "volume24h": 257201.60749999998
+        "fundingRate": 0.002925,
+        "markPrice": 357.472372002,
+        "volume24h": 248103.9515
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3026,8 +3026,8 @@
       "symbol": "AXTI",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 87.230841863,
-        "volume24h": 134215.03759999998
+        "markPrice": 87.412996558,
+        "volume24h": 129548.98389999999
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3038,9 +3038,9 @@
     {
       "symbol": "BABA",
       "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 107.694562851,
-        "volume24h": 206139.70059999998
+        "fundingRate": 0.0002875,
+        "markPrice": 107.315328455,
+        "volume24h": 200914.4792
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3052,32 +3052,32 @@
       "symbol": "BARD",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.135568158,
-        "volume24h": 475958.2198
+        "markPrice": 0.1375,
+        "volume24h": 465824.3415
       }
     },
     {
       "symbol": "BASED",
       "grvt": {
-        "fundingRate": 0.000625,
-        "markPrice": 0.061678513,
-        "volume24h": 271765.79455
+        "fundingRate": 0.0021,
+        "markPrice": 0.062206807,
+        "volume24h": 275231.96544
       }
     },
     {
       "symbol": "BBX",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 9.278942022,
-        "volume24h": 113987.01191
+        "markPrice": 9.284000005,
+        "volume24h": 114646.12786000001
       }
     },
     {
       "symbol": "BE",
       "grvt": {
-        "fundingRate": 0.00025,
-        "markPrice": 290.190278369,
-        "volume24h": 128634.6881
+        "fundingRate": 0.000125,
+        "markPrice": 290.524068667,
+        "volume24h": 126259.0469
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3089,8 +3089,8 @@
       "symbol": "BMNR",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 26.720025631,
-        "volume24h": 112319.1463
+        "markPrice": 26.863766134,
+        "volume24h": 114185.02429999999
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3101,41 +3101,41 @@
     {
       "symbol": "BRKB",
       "grvt": {
-        "fundingRate": 0.0068,
-        "markPrice": 502.8679274,
-        "volume24h": 160960.52980000002
+        "fundingRate": 0.0081125,
+        "markPrice": 502.279930441,
+        "volume24h": 161852.5355
       }
     },
     {
       "symbol": "BX",
       "grvt": {
-        "fundingRate": 0.0124,
-        "markPrice": 112.025863114,
-        "volume24h": 119570.978
+        "fundingRate": 0.0122125,
+        "markPrice": 111.993114764,
+        "volume24h": 116364.56599999999
       }
     },
     {
       "symbol": "BZ",
       "grvt": {
-        "fundingRate": -0.0014625,
-        "markPrice": 101.568979051,
-        "volume24h": 280298.4292
+        "fundingRate": -0.0011875,
+        "markPrice": 101.249933102,
+        "volume24h": 302954.86710000003
       },
       "paradex": {
-        "fundingRate": -7.500590377e-05,
-        "markPrice": 101.50676688,
+        "fundingRate": -4.947791938e-05,
+        "markPrice": 101.21447872,
         "volume24h": 0.0
       }
     },
     {
       "symbol": "CBRS",
       "grvt": {
-        "fundingRate": 0.0066,
-        "markPrice": 179.58524225,
-        "volume24h": 142907.4929
+        "fundingRate": 0.0055875,
+        "markPrice": 179.588070854,
+        "volume24h": 135158.1384
       },
       "lighter": {
-        "fundingRate": 6.4e-05,
+        "fundingRate": 3.2e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -3144,12 +3144,12 @@
       "symbol": "CL",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 90.130000031,
-        "volume24h": 470035.14890000003
+        "markPrice": 89.799035373,
+        "volume24h": 472101.5645
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 9.57347862,
+        "markPrice": 9.66376963,
         "volume24h": 0.0
       }
     },
@@ -3157,16 +3157,16 @@
       "symbol": "COHR",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 341.090000119,
-        "volume24h": 138777.6936
+        "markPrice": 340.806339037,
+        "volume24h": 137751.4214
       }
     },
     {
       "symbol": "COIN",
       "grvt": {
-        "fundingRate": 0.002125,
-        "markPrice": 186.280000065,
-        "volume24h": 574573.9441
+        "fundingRate": 0.0023375,
+        "markPrice": 186.891685169,
+        "volume24h": 569948.8296
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3177,17 +3177,17 @@
     {
       "symbol": "COPPER",
       "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 6.592000002,
-        "volume24h": 784169.7414299999
+        "fundingRate": 0.0003625,
+        "markPrice": 6.593566324,
+        "volume24h": 828883.35525
       }
     },
     {
       "symbol": "CRCL",
       "grvt": {
-        "fundingRate": 0.002775,
-        "markPrice": 82.843749352,
-        "volume24h": 1239554.4977000002
+        "fundingRate": 0.0025625,
+        "markPrice": 83.130000049,
+        "volume24h": 1193159.1979999999
       },
       "lighter": {
         "fundingRate": 0.00046399999999999995,
@@ -3195,8 +3195,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 9.26614939e-05,
-        "markPrice": 82.85620953,
+        "fundingRate": 0.00010455279795,
+        "markPrice": 83.09557451,
         "volume24h": 0.0
       }
     },
@@ -3204,32 +3204,32 @@
       "symbol": "CRDO",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 220.540000077,
-        "volume24h": 144002.6055
+        "markPrice": 221.210000132,
+        "volume24h": 141706.21399999998
       }
     },
     {
       "symbol": "CRM",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 234.150000081,
-        "volume24h": 134264.6828
+        "markPrice": 234.840000141,
+        "volume24h": 136005.082
       }
     },
     {
       "symbol": "CRWD",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 269.122013682,
-        "volume24h": 122707.7044
+        "markPrice": 269.057500161,
+        "volume24h": 125451.5269
       }
     },
     {
       "symbol": "CRWV",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 90.215401507,
-        "volume24h": 134278.4017
+        "markPrice": 90.180406466,
+        "volume24h": 133709.0821
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3241,16 +3241,16 @@
       "symbol": "CSCO",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 111.800000039,
-        "volume24h": 166731.59269999998
+        "markPrice": 111.661696767,
+        "volume24h": 167875.3907
       }
     },
     {
       "symbol": "DELL",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 564.490929437,
-        "volume24h": 135541.78100000002
+        "markPrice": 564.780000339,
+        "volume24h": 131416.59159999999
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3262,50 +3262,16 @@
       "symbol": "DIS",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 102.060000035,
-        "volume24h": 75782.4296
+        "markPrice": 102.105318804,
+        "volume24h": 79758.8069
       }
     },
     {
       "symbol": "DRAM",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 61.720000021,
-        "volume24h": 147376.7605
-      },
-      "lighter": {
-        "fundingRate": 6.4e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      },
-      "paradex": {
-        "fundingRate": 7.734227481e-05,
-        "markPrice": 61.68638875,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "EWJ",
-      "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 99.03937661,
-        "volume24h": 461198.5899
-      }
-    },
-    {
-      "symbol": "EWT",
-      "grvt": {
-        "fundingRate": -0.0006125,
-        "markPrice": 117.896746781,
-        "volume24h": 141389.596
-      }
-    },
-    {
-      "symbol": "EWY",
-      "grvt": {
-        "fundingRate": 0.0021875,
-        "markPrice": 191.111085581,
-        "volume24h": 399541.0057
+        "markPrice": 61.839838756,
+        "volume24h": 149615.32900000003
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3313,8 +3279,42 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 5.652434575e-05,
-        "markPrice": 191.0894773,
+        "fundingRate": 6.499038774e-05,
+        "markPrice": 61.84562548,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "EWJ",
+      "grvt": {
+        "fundingRate": 0.0,
+        "markPrice": 99.276760969,
+        "volume24h": 465889.0196
+      }
+    },
+    {
+      "symbol": "EWT",
+      "grvt": {
+        "fundingRate": -0.000925,
+        "markPrice": 117.859778222,
+        "volume24h": 139167.4006
+      }
+    },
+    {
+      "symbol": "EWY",
+      "grvt": {
+        "fundingRate": 0.0019375,
+        "markPrice": 191.417583739,
+        "volume24h": 402383.7411
+      },
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      },
+      "paradex": {
+        "fundingRate": 6.130661469e-05,
+        "markPrice": 191.38755163,
         "volume24h": 0.0
       }
     },
@@ -3322,49 +3322,49 @@
       "symbol": "EWZ",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 41.866463255,
-        "volume24h": 122493.76000000001
+        "markPrice": 42.047198864,
+        "volume24h": 121857.169
       }
     },
     {
       "symbol": "FLNC",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 7.625109405,
-        "volume24h": 94714.4904
+        "markPrice": 7.628547978,
+        "volume24h": 94986.8684
       }
     },
     {
       "symbol": "GIGGLE",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 38.953763455,
-        "volume24h": 407304.1415
+        "markPrice": 39.370000037,
+        "volume24h": 402847.97719999996
       }
     },
     {
       "symbol": "GLW",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 165.638556813,
-        "volume24h": 124123.7112
+        "markPrice": 164.880000156,
+        "volume24h": 123588.9627
       }
     },
     {
       "symbol": "GOOGL",
       "grvt": {
-        "fundingRate": 0.0015875,
-        "markPrice": 343.566858715,
-        "volume24h": 466977.3136
+        "fundingRate": 0.001275,
+        "markPrice": 343.220000326,
+        "volume24h": 458551.48230000003
       },
       "lighter": {
-        "fundingRate": 8.0e-05,
+        "fundingRate": 0.000144,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 6.343953616e-05,
-        "markPrice": 343.40054893,
+        "fundingRate": 6.620928151e-05,
+        "markPrice": 343.02610616,
         "volume24h": 1721.65
       }
     },
@@ -3372,24 +3372,24 @@
       "symbol": "GRVT",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.22259806,
-        "volume24h": 86263.9296
+        "markPrice": 0.222815624,
+        "volume24h": 94898.3892
       }
     },
     {
       "symbol": "GS",
       "grvt": {
-        "fundingRate": 0.0110125,
-        "markPrice": 905.372111616,
-        "volume24h": 134076.6478
+        "fundingRate": 0.011425,
+        "markPrice": 905.283653482,
+        "volume24h": 132381.2701
       }
     },
     {
       "symbol": "HANMI",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 195.810000098,
-        "volume24h": 108263.2062
+        "markPrice": 195.749521596,
+        "volume24h": 104408.45550000001
       },
       "lighter": {
         "fundingRate": 0.0,
@@ -3400,20 +3400,20 @@
     {
       "symbol": "HD",
       "grvt": {
-        "fundingRate": 0.002575,
-        "markPrice": 283.670000142,
-        "volume24h": 84344.7988
+        "fundingRate": 0.00225,
+        "markPrice": 283.164228947,
+        "volume24h": 81071.1784
       }
     },
     {
       "symbol": "HOOD",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 114.280000056,
-        "volume24h": 2330739.5242
+        "markPrice": 114.579750605,
+        "volume24h": 2330810.6917
       },
       "lighter": {
-        "fundingRate": 0.000152,
+        "fundingRate": 0.000112,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -3422,8 +3422,8 @@
       "symbol": "HYUNDAI",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 260.239273937,
-        "volume24h": 111874.08979999999
+        "markPrice": 260.364471525,
+        "volume24h": 111548.0454
       },
       "lighter": {
         "fundingRate": 5.0e-05,
@@ -3435,16 +3435,16 @@
       "symbol": "H",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.06852,
-        "volume24h": 432852.82336000004
+        "markPrice": 0.068730243,
+        "volume24h": 433021.50012
       }
     },
     {
       "symbol": "IBM",
       "grvt": {
-        "fundingRate": 0.0007125,
-        "markPrice": 222.890000111,
-        "volume24h": 103153.3749
+        "fundingRate": 0.0007,
+        "markPrice": 222.760610595,
+        "volume24h": 101618.96179999999
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3456,17 +3456,17 @@
       "symbol": "INTC",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 116.769233253,
-        "volume24h": 1886226.5715
+        "markPrice": 117.466484856,
+        "volume24h": 1827796.1238000002
       },
       "lighter": {
-        "fundingRate": 3.2e-05,
+        "fundingRate": 7.2e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 5.076753553e-05,
-        "markPrice": 116.78580364,
+        "fundingRate": 5.151235522e-05,
+        "markPrice": 117.46908872,
         "volume24h": 0.0
       }
     },
@@ -3474,16 +3474,16 @@
       "symbol": "IREN",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 42.01000002,
-        "volume24h": 132134.5176
+        "markPrice": 42.04979512,
+        "volume24h": 128674.8508
       }
     },
     {
       "symbol": "IWM",
       "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 281.680085686,
-        "volume24h": 112133.37210000001
+        "fundingRate": 0.00025,
+        "markPrice": 281.372968434,
+        "volume24h": 115202.1497
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3494,41 +3494,41 @@
     {
       "symbol": "JPM",
       "grvt": {
-        "fundingRate": 0.0067,
-        "markPrice": 332.888915332,
-        "volume24h": 92624.2652
+        "fundingRate": 0.006075,
+        "markPrice": 332.88351186,
+        "volume24h": 90167.8081
       }
     },
     {
       "symbol": "KAIA",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.038297751,
-        "volume24h": 504788.52113999997
+        "markPrice": 0.038400405,
+        "volume24h": 505306.78936
       }
     },
     {
       "symbol": "KBONK",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.003993999,
-        "volume24h": 4400935.248232
+        "markPrice": 0.004049041,
+        "volume24h": 4282824.303819001
       }
     },
     {
       "symbol": "KODEX200",
       "grvt": {
-        "fundingRate": -0.0003875,
-        "markPrice": 83.819895765,
-        "volume24h": 108564.5993
+        "fundingRate": 0.0005625,
+        "markPrice": 83.710000079,
+        "volume24h": 104570.57459999999
       }
     },
     {
       "symbol": "KORU",
       "grvt": {
-        "fundingRate": -0.0111875,
-        "markPrice": 22.580000011,
-        "volume24h": 124733.31090000001
+        "fundingRate": -0.0107,
+        "markPrice": 22.690000021,
+        "volume24h": 121623.0301
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3540,48 +3540,48 @@
       "symbol": "KPEPE",
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.00441599,
-        "volume24h": 3085247.295049
+        "markPrice": 0.004471121,
+        "volume24h": 3071741.050645
       }
     },
     {
       "symbol": "KSHIB",
       "grvt": {
         "fundingRate": 0.00125,
-        "markPrice": 0.005906999,
-        "volume24h": 989911.29074
+        "markPrice": 0.005966605,
+        "volume24h": 962665.904342
       }
     },
     {
       "symbol": "KSTR",
       "grvt": {
-        "fundingRate": 0.00145,
-        "markPrice": 22.1848166,
-        "volume24h": 129414.4581
+        "fundingRate": 0.00125,
+        "markPrice": 22.195234155,
+        "volume24h": 124345.9031
       }
     },
     {
       "symbol": "LA",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.069319999,
-        "volume24h": 493292.014353
+        "markPrice": 0.07034,
+        "volume24h": 494078.152527
       }
     },
     {
       "symbol": "LGELECTRONICS",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 158.930000079,
-        "volume24h": 119220.81159999999
+        "markPrice": 158.743248716,
+        "volume24h": 116322.5053
       }
     },
     {
       "symbol": "LITE",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 1101.00704473,
-        "volume24h": 208763.9242
+        "markPrice": 1101.494969059,
+        "volume24h": 206468.9614
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3592,26 +3592,26 @@
     {
       "symbol": "LLY",
       "grvt": {
-        "fundingRate": 0.004475,
-        "markPrice": 1144.122839234,
-        "volume24h": 102399.411
+        "fundingRate": 0.0044,
+        "markPrice": 1144.14,
+        "volume24h": 98974.5196
       }
     },
     {
       "symbol": "META",
       "grvt": {
-        "fundingRate": 0.002425,
-        "markPrice": 726.640000363,
-        "volume24h": 460853.64989999996
+        "fundingRate": 0.0019625,
+        "markPrice": 726.73,
+        "volume24h": 463320.25800000003
       },
       "lighter": {
-        "fundingRate": 3.2e-05,
+        "fundingRate": 4.7999999999999994e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 37.19963531,
+        "markPrice": 37.42876559,
         "volume24h": 0.0
       }
     },
@@ -3619,8 +3619,8 @@
       "symbol": "MINIMAX",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 31.320000015,
-        "volume24h": 118202.4084
+        "markPrice": 31.225266505,
+        "volume24h": 118038.1337
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3631,12 +3631,12 @@
     {
       "symbol": "MRNA",
       "grvt": {
-        "fundingRate": 0.0041625,
-        "markPrice": 190.510000094,
-        "volume24h": 124433.555
+        "fundingRate": 0.0035125,
+        "markPrice": 190.489999999,
+        "volume24h": 123720.6933
       },
       "lighter": {
-        "fundingRate": -8.800000000000001e-05,
+        "fundingRate": 3.2e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -3645,8 +3645,8 @@
       "symbol": "MRVL",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 275.450000138,
-        "volume24h": 224937.6704
+        "markPrice": 276.429999999,
+        "volume24h": 221624.1538
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3654,17 +3654,17 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 5.50360113e-05,
-        "markPrice": 275.58422062,
+        "fundingRate": 5.397020753e-05,
+        "markPrice": 276.28045867,
         "volume24h": 0.0
       }
     },
     {
       "symbol": "MSFT",
       "grvt": {
-        "fundingRate": 0.0009125,
-        "markPrice": 514.770000257,
-        "volume24h": 332797.1696
+        "fundingRate": 0.000525,
+        "markPrice": 515.249999999,
+        "volume24h": 333574.2924
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3672,17 +3672,17 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 7.712925698e-05,
-        "markPrice": 514.56355082,
+        "fundingRate": 5.909968967e-05,
+        "markPrice": 515.01806409,
         "volume24h": 0.0
       }
     },
     {
       "symbol": "MSTR",
       "grvt": {
-        "fundingRate": 0.000275,
-        "markPrice": 163.520000081,
-        "volume24h": 727804.5496
+        "fundingRate": 0.0008125,
+        "markPrice": 164.801214392,
+        "volume24h": 726071.2586000001
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3690,17 +3690,17 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 7.15824364e-05,
-        "markPrice": 163.65990188,
+        "fundingRate": 8.316049904e-05,
+        "markPrice": 164.94697892,
         "volume24h": 147.438
       }
     },
     {
       "symbol": "MU",
       "grvt": {
-        "fundingRate": 0.00065,
-        "markPrice": 1078.010000538,
-        "volume24h": 312776.0329
+        "fundingRate": 0.0011125,
+        "markPrice": 1080.896702129,
+        "volume24h": 311951.2757
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3708,17 +3708,17 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 5.338582832e-05,
-        "markPrice": 1078.60865637,
+        "fundingRate": 6.27259947e-05,
+        "markPrice": 1080.48803374,
         "volume24h": 0.0
       }
     },
     {
       "symbol": "NATGAS",
       "grvt": {
-        "fundingRate": 0.001975,
-        "markPrice": 3.023000001,
-        "volume24h": 241697.0539
+        "fundingRate": 0.0018625,
+        "markPrice": 3.0251502,
+        "volume24h": 241592.7632
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3730,16 +3730,16 @@
       "symbol": "NAVER",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 143.805245172,
-        "volume24h": 98315.2072
+        "markPrice": 143.944354201,
+        "volume24h": 99028.4896
       }
     },
     {
       "symbol": "NBIS",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 245.652281572,
-        "volume24h": 131796.4613
+        "markPrice": 245.608859559,
+        "volume24h": 132200.06300000002
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3750,17 +3750,17 @@
     {
       "symbol": "NFLX",
       "grvt": {
-        "fundingRate": 0.0031125,
-        "markPrice": 67.283820595,
-        "volume24h": 103946.4462
+        "fundingRate": 0.0024375,
+        "markPrice": 67.270074527,
+        "volume24h": 105677.7623
       }
     },
     {
       "symbol": "NOK",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 10.599230639,
-        "volume24h": 113755.7229
+        "markPrice": 10.597290365,
+        "volume24h": 116377.2708
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3771,9 +3771,9 @@
     {
       "symbol": "NOW",
       "grvt": {
-        "fundingRate": 0.0042875,
-        "markPrice": 134.508758713,
-        "volume24h": 107529.929
+        "fundingRate": 0.0035875,
+        "markPrice": 134.470148977,
+        "volume24h": 109007.6707
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3784,9 +3784,9 @@
     {
       "symbol": "NVDA",
       "grvt": {
-        "fundingRate": 8.75e-05,
-        "markPrice": 235.500000118,
-        "volume24h": 436289.03520000004
+        "fundingRate": 0.0006375,
+        "markPrice": 235.618035016,
+        "volume24h": 421262.9308
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3797,25 +3797,25 @@
     {
       "symbol": "NVO",
       "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 37.320000018,
-        "volume24h": 112169.8332
+        "fundingRate": 0.0004375,
+        "markPrice": 36.780040748,
+        "volume24h": 120324.3627
       }
     },
     {
       "symbol": "ONDS",
       "grvt": {
-        "fundingRate": 0.0030625,
-        "markPrice": 7.346228543,
-        "volume24h": 135969.47615
+        "fundingRate": 0.00355,
+        "markPrice": 7.36174133,
+        "volume24h": 139421.73911999998
       }
     },
     {
       "symbol": "OPENAI",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 1623.871085329,
-        "volume24h": 90897.9472
+        "markPrice": 1626.511143608,
+        "volume24h": 87564.5749
       },
       "lighter": {
         "fundingRate": 0.0,
@@ -3827,8 +3827,8 @@
       "symbol": "ORCL",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 143.179787094,
-        "volume24h": 147256.1009
+        "markPrice": 143.074128746,
+        "volume24h": 143129.6608
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3839,17 +3839,17 @@
     {
       "symbol": "PAYP",
       "grvt": {
-        "fundingRate": 0.0227125,
-        "markPrice": 15.140665489,
-        "volume24h": 448231.7409
+        "fundingRate": 0.019275,
+        "markPrice": 15.134958076,
+        "volume24h": 439410.5409
       }
     },
     {
       "symbol": "PLTR",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 188.580000065,
-        "volume24h": 302191.9345
+        "markPrice": 188.579287335,
+        "volume24h": 307033.5964
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3860,9 +3860,9 @@
     {
       "symbol": "QCOM",
       "grvt": {
-        "fundingRate": 0.0039875,
-        "markPrice": 187.897392065,
-        "volume24h": 157821.92369999998
+        "fundingRate": 0.00465,
+        "markPrice": 189.240000132,
+        "volume24h": 155982.25209999998
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3873,17 +3873,17 @@
     {
       "symbol": "QNTX",
       "grvt": {
-        "fundingRate": 0.0211625,
-        "markPrice": 46.3389368,
-        "volume24h": 109197.88029999999
+        "fundingRate": 0.018875,
+        "markPrice": 46.410000032,
+        "volume24h": 111707.89600000001
       }
     },
     {
       "symbol": "QQQ",
       "grvt": {
-        "fundingRate": 0.0033125,
-        "markPrice": 749.160000262,
-        "volume24h": 209732.4376
+        "fundingRate": 0.003,
+        "markPrice": 749.980000524,
+        "volume24h": 202307.7924
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3895,8 +3895,8 @@
       "symbol": "RIVER",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 1.234,
-        "volume24h": 396909.084
+        "markPrice": 1.231000001,
+        "volume24h": 398448.4849
       },
       "lighter": {
         "fundingRate": 9.599999999999999e-05,
@@ -3908,8 +3908,8 @@
       "symbol": "RKLB",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 74.750000026,
-        "volume24h": 149537.81650000002
+        "markPrice": 74.720000052,
+        "volume24h": 147165.56939999998
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3921,27 +3921,27 @@
       "symbol": "SAHARA",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 0.009275337,
-        "volume24h": 386719.450831
+        "markPrice": 0.009342999,
+        "volume24h": 390266.721251
       }
     },
     {
       "symbol": "SAMSUNGEM",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 1169.492550836,
-        "volume24h": 131519.62410000002
+        "markPrice": 1167.570000818,
+        "volume24h": 133833.33419999998
       }
     },
     {
       "symbol": "SAMSUNG",
       "grvt": {
-        "fundingRate": 0.0001875,
-        "markPrice": 207.209924415,
-        "volume24h": 123535.84030000001
+        "fundingRate": 0.0,
+        "markPrice": 207.050000145,
+        "volume24h": 122708.4278
       },
       "lighter": {
-        "fundingRate": 0.00080208,
+        "fundingRate": 5.0e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -3950,11 +3950,11 @@
       "symbol": "SKHYNIX",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 1375.039498429,
-        "volume24h": 119800.77960000001
+        "markPrice": 1376.860000964,
+        "volume24h": 121827.462
       },
       "lighter": {
-        "fundingRate": 0.0004174992,
+        "fundingRate": 0.0001018136,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -3962,12 +3962,12 @@
     {
       "symbol": "SKHY",
       "grvt": {
-        "fundingRate": -0.0012625,
-        "markPrice": 194.301431517,
-        "volume24h": 120357.5534
+        "fundingRate": -0.0005375,
+        "markPrice": 194.710000136,
+        "volume24h": 120705.7243
       },
       "lighter": {
-        "fundingRate": 3.2e-05,
+        "fundingRate": 8.0e-06,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -3976,16 +3976,16 @@
       "symbol": "SMCI",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 43.956739454,
-        "volume24h": 130223.2273
+        "markPrice": 43.988030924,
+        "volume24h": 127712.5135
       }
     },
     {
       "symbol": "SNDK",
       "grvt": {
-        "fundingRate": 0.00045,
-        "markPrice": 1724.778505771,
-        "volume24h": 216643.7905
+        "fundingRate": 0.000575,
+        "markPrice": 1730.6313423,
+        "volume24h": 219685.3054
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -3993,8 +3993,8 @@
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 7.482376803e-05,
-        "markPrice": 1725.22978178,
+        "fundingRate": 7.018629173e-05,
+        "markPrice": 1729.76947946,
         "volume24h": 99.6092
       }
     },
@@ -4002,8 +4002,8 @@
       "symbol": "SOXL",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 164.383603373,
-        "volume24h": 218601.52779999998
+        "markPrice": 165.430474603,
+        "volume24h": 219721.3634
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -4015,16 +4015,16 @@
       "symbol": "SPACEX",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 160.009861378,
-        "volume24h": 116663.0327
+        "markPrice": 160.196892488,
+        "volume24h": 115683.6815
       }
     },
     {
       "symbol": "SPY",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 769.192163706,
-        "volume24h": 345439.9862
+        "markPrice": 769.160000539,
+        "volume24h": 335352.8959
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -4036,16 +4036,16 @@
       "symbol": "SQQQ",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 33.311718327,
-        "volume24h": 120309.0042
+        "markPrice": 33.211368372,
+        "volume24h": 118741.24160000001
       }
     },
     {
       "symbol": "STRC",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 99.38579221,
-        "volume24h": 101732.1341
+        "markPrice": 99.481810317,
+        "volume24h": 101574.42790000001
       },
       "lighter": {
         "fundingRate": 0.0,
@@ -4057,24 +4057,24 @@
       "symbol": "STXX",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 856.768078047,
-        "volume24h": 116310.4848
+        "markPrice": 859.54677781,
+        "volume24h": 115968.95999999999
       }
     },
     {
       "symbol": "TQQQ",
       "grvt": {
-        "fundingRate": 0.0017375,
-        "markPrice": 80.740000052,
-        "volume24h": 116680.65969999999
+        "fundingRate": 0.001575,
+        "markPrice": 80.950000056,
+        "volume24h": 118863.0609
       }
     },
     {
       "symbol": "TSLA",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 372.040000241,
-        "volume24h": 3068226.5618000003
+        "markPrice": 371.93000026,
+        "volume24h": 2907162.1761999996
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -4085,9 +4085,9 @@
     {
       "symbol": "TSM",
       "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 477.453920101,
-        "volume24h": 314135.5376
+        "fundingRate": 0.000175,
+        "markPrice": 479.046515527,
+        "volume24h": 315741.7368
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -4099,48 +4099,48 @@
       "symbol": "UBER",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 68.270087544,
-        "volume24h": 209684.4726
+        "markPrice": 68.250000048,
+        "volume24h": 216127.2253
       }
     },
     {
       "symbol": "URNM",
       "grvt": {
-        "fundingRate": 0.00915,
-        "markPrice": 48.240000031,
-        "volume24h": 135223.3005
+        "fundingRate": 0.0,
+        "markPrice": 47.370000032,
+        "volume24h": 137254.4346
       }
     },
     {
       "symbol": "USAR",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 13.689644664,
-        "volume24h": 186276.1929
+        "markPrice": 13.670276324,
+        "volume24h": 190173.1747
       }
     },
     {
       "symbol": "UVXY",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 17.01000001,
-        "volume24h": 114327.4252
+        "markPrice": 17.080000011,
+        "volume24h": 111567.2
       }
     },
     {
       "symbol": "V",
       "grvt": {
-        "fundingRate": 0.0056,
-        "markPrice": 360.535982564,
-        "volume24h": 137758.192
+        "fundingRate": 0.00515,
+        "markPrice": 360.600000252,
+        "volume24h": 134465.2219
       }
     },
     {
       "symbol": "WDC",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 419.560000273,
-        "volume24h": 133810.311
+        "markPrice": 420.87532503,
+        "volume24h": 128012.9015
       },
       "lighter": {
         "fundingRate": 3.2e-05,
@@ -4151,72 +4151,72 @@
     {
       "symbol": "WMT",
       "grvt": {
-        "fundingRate": 0.01925,
-        "markPrice": 104.380000067,
-        "volume24h": 149484.39010000002
+        "fundingRate": 0.018425,
+        "markPrice": 104.288841587,
+        "volume24h": 145371.5816
       }
     },
     {
       "symbol": "XAG",
       "grvt": {
-        "fundingRate": 0.0026375,
-        "markPrice": 61.424965754,
-        "volume24h": 1677497.53611
+        "fundingRate": 0.0027375,
+        "markPrice": 61.5263293,
+        "volume24h": 1636595.45645
       },
       "lighter": {
-        "fundingRate": 8.0e-05,
+        "fundingRate": 0.00012,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 8.410226204e-05,
-        "markPrice": 61.41863929,
-        "volume24h": 299.4101
+        "fundingRate": 9.567330602e-05,
+        "markPrice": 61.51402935,
+        "volume24h": 532.4716999999999
       }
     },
     {
       "symbol": "XAUT",
       "grvt": {
         "fundingRate": 0.000625,
-        "markPrice": 4150.900002698,
-        "volume24h": 113052.82814
+        "markPrice": 4154.720005818,
+        "volume24h": 108684.05666
       }
     },
     {
       "symbol": "XAU",
       "grvt": {
-        "fundingRate": 0.0007,
-        "markPrice": 4155.123062031,
-        "volume24h": 3405802.26721
+        "fundingRate": 0.0004625,
+        "markPrice": 4160.128399169,
+        "volume24h": 3334123.6761499997
       },
       "lighter": {
-        "fundingRate": 0.00019199999999999998,
+        "fundingRate": 0.000184,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 1391.71562937,
+        "markPrice": 1384.00834344,
         "volume24h": 0.0
       }
     },
     {
       "symbol": "XLE",
       "grvt": {
-        "fundingRate": 0.0,
-        "markPrice": 62.589004104,
-        "volume24h": 109044.66089999999
+        "fundingRate": 1.25e-05,
+        "markPrice": 62.495004143,
+        "volume24h": 113696.0992
       }
     },
     {
       "symbol": "XPD",
       "grvt": {
         "fundingRate": 0.0,
-        "markPrice": 1177.521193486,
-        "volume24h": 837270.40969
+        "markPrice": 1179.01998561,
+        "volume24h": 851880.53298
       },
       "lighter": {
-        "fundingRate": 3.2e-05,
+        "fundingRate": 0.000208,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4224,276 +4224,18 @@
     {
       "symbol": "XPT",
       "grvt": {
-        "fundingRate": 0.0010625,
-        "markPrice": 1723.404236194,
-        "volume24h": 1030330.7161099999
+        "fundingRate": 0.00015,
+        "markPrice": 1725.195979018,
+        "volume24h": 1031714.55631
       },
-      "lighter": {
-        "fundingRate": 0.000128,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      },
-      "paradex": {
-        "fundingRate": 0.00012927859394,
-        "markPrice": 1723.58923423,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "WEN",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "1000SHIB",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "GEV",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "1000BONK",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "QNT",
-      "lighter": {
-        "fundingRate": -0.0015840000000000001,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "ZHIPU",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "BYD",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "SPCX",
       "lighter": {
         "fundingRate": 3.2e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       },
       "paradex": {
-        "fundingRate": 0.0,
-        "markPrice": 3.33167282,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "FF",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "PIPPIN",
-      "lighter": {
-        "fundingRate": 0.0001,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "XCU",
-      "lighter": {
-        "fundingRate": 5.6e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      },
-      "paradex": {
-        "fundingRate": 5.334252099e-05,
-        "markPrice": 6.58351537,
-        "volume24h": 125.3411
-      }
-    },
-    {
-      "symbol": "DIA",
-      "lighter": {
-        "fundingRate": 0.0001,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "EDGE",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "POPMART",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "NMR",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "BB",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "RAY",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "CTR",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "BOT",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "1000TOSHI",
-      "lighter": {
-        "fundingRate": 0.0001,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "ROBO",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "BIRB",
-      "lighter": {
-        "fundingRate": 0.0001,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "MYX",
-      "lighter": {
-        "fundingRate": 0.0001,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "WTI",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "CXMT",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "BRENTOIL",
-      "lighter": {
-        "fundingRate": -4.7999999999999994e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "TTWO",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "OURA",
-      "lighter": {
-        "fundingRate": 0.0,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "ARC",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "SOXS",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "1000FLOKI",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
+        "fundingRate": 7.918007566e-05,
+        "markPrice": 1726.93538396,
         "volume24h": 0.0
       }
     },
@@ -4514,9 +4256,259 @@
       }
     },
     {
-      "symbol": "EDEN",
+      "symbol": "CAP",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "EDGE",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "WTI",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "1000SHIB",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "BB",
+      "lighter": {
+        "fundingRate": 0.00017600000000000002,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "OURA",
+      "lighter": {
+        "fundingRate": 0.0,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "TTWO",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "FF",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "XCU",
+      "lighter": {
+        "fundingRate": 0.000168,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      },
+      "paradex": {
+        "fundingRate": 7.751038156e-05,
+        "markPrice": 6.59483849,
+        "volume24h": 125.3411
+      }
+    },
+    {
+      "symbol": "TENCENT",
+      "lighter": {
+        "fundingRate": 0.0005920000000000001,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "1000TOSHI",
       "lighter": {
         "fundingRate": 0.0001,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "POPMART",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "ROBO",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "WEN",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "DIA",
+      "lighter": {
+        "fundingRate": 0.0001,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "BOT",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      },
+      "paradex": {
+        "fundingRate": 0.0,
+        "markPrice": 3.39157144,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "ZHIPU",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "1000FLOKI",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "CXMT",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "GME",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "BYD",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "CTR",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "MYX",
+      "lighter": {
+        "fundingRate": 0.0001,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "BIRB",
+      "lighter": {
+        "fundingRate": 0.0001,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "ARC",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "PIPPIN",
+      "lighter": {
+        "fundingRate": 0.0001,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "GEV",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "NMR",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "BRENTOIL",
+      "lighter": {
+        "fundingRate": -2.3999999999999997e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "RAY",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4530,7 +4522,7 @@
       }
     },
     {
-      "symbol": "DOLO",
+      "symbol": "DUSK",
       "lighter": {
         "fundingRate": 0.0001,
         "markPrice": 0.0,
@@ -4546,23 +4538,15 @@
       }
     },
     {
-      "symbol": "CAP",
+      "symbol": "QNT",
       "lighter": {
-        "fundingRate": 9.599999999999999e-05,
+        "fundingRate": -0.001096,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
     },
     {
-      "symbol": "GME",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "DUSK",
+      "symbol": "DOLO",
       "lighter": {
         "fundingRate": 0.0001,
         "markPrice": 0.0,
@@ -4570,9 +4554,25 @@
       }
     },
     {
-      "symbol": "TENCENT",
+      "symbol": "EDEN",
       "lighter": {
-        "fundingRate": 0.00038399999999999996,
+        "fundingRate": 0.0001,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "SOXS",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "1000BONK",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4604,7 +4604,7 @@
     {
       "symbol": "EURUSD",
       "lighter": {
-        "fundingRate": 1.6e-05,
+        "fundingRate": 3.2e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4620,7 +4620,7 @@
     {
       "symbol": "MAGS",
       "lighter": {
-        "fundingRate": 0.00024003,
+        "fundingRate": 0.00040186,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4652,7 +4652,7 @@
     {
       "symbol": "STONK",
       "lighter": {
-        "fundingRate": 0.0016239999999999998,
+        "fundingRate": 9.599999999999999e-05,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4684,7 +4684,55 @@
     {
       "symbol": "KRCOMP",
       "lighter": {
-        "fundingRate": 5.0e-05,
+        "fundingRate": 0.0001991296,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "SAMSUNGUSD",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "H100",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "NZDUSD",
+      "lighter": {
+        "fundingRate": 0.0,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "USDCAD",
+      "lighter": {
+        "fundingRate": -0.000288,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "USDHKD",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "RAIL",
+      "lighter": {
+        "fundingRate": 0.010391999999999998,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4706,62 +4754,14 @@
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 17.69890171,
+        "markPrice": 17.74189336,
         "volume24h": 0.0
       }
     },
     {
-      "symbol": "SAMSUNGUSD",
+      "symbol": "AUDUSD",
       "lighter": {
-        "fundingRate": 0.00068,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "NZDUSD",
-      "lighter": {
-        "fundingRate": 0.0,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "1000NOT",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "ANSEM",
-      "lighter": {
-        "fundingRate": 9.599999999999999e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "USDHKD",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "USDCHF",
-      "lighter": {
-        "fundingRate": -0.000392,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "RAIL",
-      "lighter": {
-        "fundingRate": 0.012008000000000001,
+        "fundingRate": 8.0e-06,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
@@ -4775,60 +4775,20 @@
       },
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 377.95249906,
+        "markPrice": 394.78186825,
         "volume24h": 0.0
       }
     },
     {
-      "symbol": "SKHYNIXUSD",
+      "symbol": "USDCHF",
       "lighter": {
-        "fundingRate": 0.000264,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "AUDUSD",
-      "lighter": {
-        "fundingRate": 8.0e-06,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "H100",
-      "lighter": {
-        "fundingRate": 3.2e-05,
+        "fundingRate": -0.00035999999999999997,
         "markPrice": 0.0,
         "volume24h": 0.0
       }
     },
     {
       "symbol": "KIOXIA",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "STABLECOINX",
-      "lighter": {
-        "fundingRate": 3.2e-05,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "USDCAD",
-      "lighter": {
-        "fundingRate": -0.000472,
-        "markPrice": 0.0,
-        "volume24h": 0.0
-      }
-    },
-    {
-      "symbol": "HYUNDAIUSD",
       "lighter": {
         "fundingRate": 3.2e-05,
         "markPrice": 0.0,
@@ -4844,10 +4804,50 @@
       }
     },
     {
+      "symbol": "ANSEM",
+      "lighter": {
+        "fundingRate": 0.0021360000000000003,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "STABLECOINX",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "SKHYNIXUSD",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "HYUNDAIUSD",
+      "lighter": {
+        "fundingRate": 3.2e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
+      "symbol": "1000NOT",
+      "lighter": {
+        "fundingRate": 9.599999999999999e-05,
+        "markPrice": 0.0,
+        "volume24h": 0.0
+      }
+    },
+    {
       "symbol": "NG",
       "paradex": {
-        "fundingRate": 6.524498329e-05,
-        "markPrice": 3.02505672,
+        "fundingRate": 9.340389881e-05,
+        "markPrice": 3.02768465,
         "volume24h": 973.0493
       }
     },
@@ -4855,7 +4855,7 @@
       "symbol": "USDC",
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 0.99994995,
+        "markPrice": 0.99994493,
         "volume24h": 0.0
       }
     },
@@ -4863,12 +4863,12 @@
       "symbol": "DIME",
       "paradex": {
         "fundingRate": 0.0,
-        "markPrice": 0.045545,
-        "volume24h": 45505.56245000023
+        "markPrice": 0.0456,
+        "volume24h": 43565.08427000017
       }
     }
   ],
-  "timestamp": "2026-10-05T06:47:22+00:00",
+  "timestamp": "2026-10-05T07:43:47+00:00",
   "exchanges": [
     "hyperliquid",
     "grvt",
